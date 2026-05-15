@@ -206,12 +206,12 @@ const Home = () => {
                     <div className="our-dish-item wow fadeInUp">
                         <div className="our-dish-img">
                             <figure className="image-anime">
-                                <img src="/images/our-dish-image-1.jpg" alt="" />
+                                <img src="/menu/tandoori-platter.jpeg" alt="Tandoor" />
                             </figure>
                         </div>
                         <div className="our-dish-content">
-                            <h3>soups</h3>
-                            <p>Warm, comforting, and full of flavor, our soups avre the perfect start to any meal.</p>
+                            <h3>tandoor</h3>
+                            <p>Smoky, chargrilled tandoor specials prepared fresh and full of bold flavor.</p>
                         </div>
                     </div>
                     
@@ -222,12 +222,12 @@ const Home = () => {
                     <div className="our-dish-item wow fadeInUp" data-wow-delay="0.2s">
                         <div className="our-dish-img">
                             <figure className="image-anime">
-                                <img src="/images/our-dish-image-2.jpg" alt="" />
+                                <img src="/menu/wrap---roll.jpeg" alt="Wrap & Roll" />
                             </figure>
                         </div>
                         <div className="our-dish-content">
-                            <h3>salads</h3>
-                            <p>Refreshing, vibrant, and full of fresh flavors, our salads are crafted to senses.</p>
+                            <h3>wrap & roll</h3>
+                            <p>Fresh wraps and rolls packed with spicy fillings and satisfying textures.</p>
                         </div>
                     </div>
                     
@@ -238,12 +238,12 @@ const Home = () => {
                     <div className="our-dish-item wow fadeInUp" data-wow-delay="0.4s">
                         <div className="our-dish-img">
                             <figure className="image-anime">
-                                <img src="/images/our-dish-image-3.jpg" alt="" />
+                                <img src="/menu/roti-rasoi.jpeg" alt="Roti Rasoi" />
                             </figure>
                         </div>
                         <div className="our-dish-content">
-                            <h3>main dishes</h3>
-                            <p>Offering bold flavors and expertly crafted recipes that cater to every taste.</p>
+                            <h3>roti rasoi</h3>
+                            <p>Soft rotis and fresh breads served with comforting homestyle accompaniments.</p>
                         </div>
                     </div>
                     
@@ -254,12 +254,12 @@ const Home = () => {
                     <div className="our-dish-item wow fadeInUp" data-wow-delay="0.6s">
                         <div className="our-dish-img">
                             <figure className="image-anime">
-                                <img src="/images/our-dish-image-4.jpg" alt="" />
+                                <img src="/menu/veg-burger.jpeg" alt="Sandwiches & Burgers" />
                             </figure>
                         </div>
                         <div className="our-dish-content">
-                            <h3>appetizers</h3>
-                            <p>Our appetizers are the perfect way to begin your dining experience flavors.</p>
+                            <h3>sandwiches & burgers</h3>
+                            <p>Crisp sandwiches and loaded burgers made for quick, hearty cravings.</p>
                         </div>
                     </div>
                     
