@@ -143,7 +143,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Achari Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -160,7 +160,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Achari Mushroom Tikka</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -177,7 +177,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Achari Paneer Tikka</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹210 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹210</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -194,7 +194,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Afghani Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹190 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹190</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -211,7 +211,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Dahi Ke Sholey</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹150</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹150</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -228,7 +228,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Haryali Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -245,7 +245,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Haryali Paneer Tikka</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹210 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹210</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -262,7 +262,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Malai Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -279,7 +279,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Malai Paneer Tikka</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹210 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹210</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -296,7 +296,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mushroom Tikka</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -313,7 +313,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Stuffed Malai Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹150</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹150</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -330,7 +330,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Stuffed Tandoori Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹150</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹150</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -347,7 +347,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tandoori Masala Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹170 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹170</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -364,7 +364,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tandoori Paneer Tikka</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹210 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹210</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -381,7 +381,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tandoori Platter</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹399</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹399</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -416,7 +416,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Afghani Chaap Roll</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -433,7 +433,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Mushroom Wrap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -450,7 +450,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Paneer Wrap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -467,7 +467,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Malai Chaap Roll</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -484,7 +484,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Roll</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -501,7 +501,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tandoori Chaap Roll</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -518,7 +518,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Manchurian Roll</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -535,7 +535,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Roll</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -570,7 +570,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Aloo Naan</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹45</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹45</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -587,7 +587,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Aloo Paratha</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹40</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹40</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -604,7 +604,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Aloo Pyaaz Paratha</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹60</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹60</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -621,7 +621,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Amritsari Kulcha</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -638,7 +638,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Butter Naan</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹40</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹40</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -655,7 +655,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Classic Boondi Raita</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹56</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹56</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -672,7 +672,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Garlic Naan</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -689,7 +689,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Lachcha Paratha</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹40</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹40</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -706,7 +706,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Masala Missi Roti</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹35</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹35</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -723,7 +723,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Missi Roti</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹30</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹30</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -740,7 +740,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mix Veg Paratha</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -757,7 +757,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mix Veg Raita</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹64</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹64</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -774,7 +774,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Onion Missi Roti</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹30</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹30</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -791,7 +791,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Naan</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -808,7 +808,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Paratha</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -825,7 +825,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Plain Naan</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹30</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹30</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -842,7 +842,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Pudina Naan</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹45</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹45</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -859,7 +859,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Rumali Roti</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹10</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹10</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -876,7 +876,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Special Pineapple Raita</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹72</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹72</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -893,7 +893,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Stuffed Kulcha</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -910,7 +910,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Stuffed Naan</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹60</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹60</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -927,7 +927,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tandoori Plain Roti</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹12</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹12</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -944,7 +944,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tandoori Roti Butter</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹15</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹15</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -979,7 +979,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Aloo Sandwich</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -996,7 +996,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Cheese Burger</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹60</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹60</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1013,7 +1013,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Cheese Corn Sandwich</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹60</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹60</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1030,7 +1030,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Paneer Sandwich</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1047,7 +1047,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Double Patty Burger</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1064,7 +1064,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Grilled Sandwich</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1081,7 +1081,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Burger</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1098,7 +1098,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Kurkure Burger</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1115,7 +1115,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veggie Delight Burger</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1150,7 +1150,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>American Remix Pizza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}><span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹90 <br/> 8 inch: ₹140 <br/> 10 inch: ₹190</span></span>
+                                                <span style={{ textAlign: 'right' }}>{<span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹90 <br/> 8 inch: ₹140 <br/> 10 inch: ₹190</span>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1167,7 +1167,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Capsicum Cheese Pizza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}><span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹70 <br/> 8 inch: ₹120 <br/> 10 inch: ₹170</span></span>
+                                                <span style={{ textAlign: 'right' }}>{<span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹70 <br/> 8 inch: ₹120 <br/> 10 inch: ₹170</span>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1184,7 +1184,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Exotic Veg Pizza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}><span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹90 <br/> 8 inch: ₹140 <br/> 10 inch: ₹190</span></span>
+                                                <span style={{ textAlign: 'right' }}>{<span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹90 <br/> 8 inch: ₹140 <br/> 10 inch: ₹190</span>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1201,7 +1201,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Farmhouse Pizza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}><span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹80 <br/> 8 inch: ₹130 <br/> 10 inch: ₹180</span></span>
+                                                <span style={{ textAlign: 'right' }}>{<span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹80 <br/> 8 inch: ₹130 <br/> 10 inch: ₹180</span>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1218,7 +1218,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Golden Corn Pizza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}><span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹70 <br/> 8 inch: ₹120 <br/> 10 inch: ₹170</span></span>
+                                                <span style={{ textAlign: 'right' }}>{<span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹70 <br/> 8 inch: ₹120 <br/> 10 inch: ₹170</span>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1235,7 +1235,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Margherita Pizza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}><span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹70 <br/> 8 inch: ₹120 <br/> 10 inch: ₹170</span></span>
+                                                <span style={{ textAlign: 'right' }}>{<span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹70 <br/> 8 inch: ₹120 <br/> 10 inch: ₹170</span>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1252,7 +1252,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Onion Capsicum Pizza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}><span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹80 <br/> 8 inch: ₹130 <br/> 10 inch: ₹180</span></span>
+                                                <span style={{ textAlign: 'right' }}>{<span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹80 <br/> 8 inch: ₹130 <br/> 10 inch: ₹180</span>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1269,7 +1269,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Tikka Pizza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}><span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹80 <br/> 8 inch: ₹130 <br/> 10 inch: ₹180</span></span>
+                                                <span style={{ textAlign: 'right' }}>{<span style={{whiteSpace: 'nowrap', fontSize: '0.85em', display: 'inline-block', lineHeight: '1.4'}}>6 inch: ₹80 <br/> 8 inch: ₹130 <br/> 10 inch: ₹180</span>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1304,7 +1304,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Cheesy Fries</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1321,7 +1321,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Baby Corn</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹150 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹150</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1338,7 +1338,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1355,7 +1355,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Mushroom</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹128</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹128</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1372,7 +1372,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Paneer Dry</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹150 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹150</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1389,7 +1389,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Paneer Gravy</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹160 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹100</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹100</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹160</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1406,7 +1406,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Potato</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1423,7 +1423,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Crispy Corn</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1440,7 +1440,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>French Fries</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1457,7 +1457,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Honey Chilli Potato</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹100 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹100</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1474,7 +1474,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Peri-Peri Fries</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1491,7 +1491,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Manchurian Dry</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1508,7 +1508,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Manchurian Gravy</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹140 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹140</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1525,7 +1525,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Spring Roll</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1560,7 +1560,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chaap Butter Masala</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1577,7 +1577,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Dal Fry</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹100 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹100</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1594,7 +1594,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Dal Handi</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹110 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹110</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1611,7 +1611,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Dal Makhani</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹100</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹100</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1628,7 +1628,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Dal Tadka</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1645,7 +1645,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Dum Aloo Kashmiri</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹200 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹200</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1662,7 +1662,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Kadhai Chaap</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1679,7 +1679,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Kadhai Paneer</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹230 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹230</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1696,7 +1696,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Malai Kofta Red Gravy</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1713,7 +1713,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Matar Mushroom</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹190 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹115</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹115</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹190</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1730,7 +1730,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Matar Paneer</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹200 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹200</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1747,7 +1747,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mix Veg</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1764,7 +1764,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mushroom Do Pyaaza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹200 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹200</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1781,7 +1781,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Bhurji</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹240 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹240</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1798,7 +1798,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Butter Masala</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1815,7 +1815,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Do Pyaaza</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹210 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹120</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹210</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1832,7 +1832,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Handi</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹260 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹150</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹150</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹260</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1849,7 +1849,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Lababdar</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹230 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹230</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1866,7 +1866,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Pasanda</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹240 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹240</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1883,7 +1883,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Tikka Masala</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹240 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹140</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹240</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1900,7 +1900,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Shahi Paneer</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1917,7 +1917,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tawa Chaap Curry</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹130</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1952,7 +1952,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Cheesy Maggie</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1969,7 +1969,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Peri-Peri Maggie</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹60</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹60</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -1986,7 +1986,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Plain Maggie</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹40</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹40</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2003,7 +2003,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veggie Maggie</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2038,7 +2038,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Afghani Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹150 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹150</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2055,7 +2055,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Fried Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹100</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹100</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2072,7 +2072,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Kurkure Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹130 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹130</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2089,7 +2089,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Steamed Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹100 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹100</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2106,7 +2106,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Tandoori Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹140 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹100</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹100</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹140</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2123,7 +2123,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Afghani Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹140 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹110</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹140</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2140,7 +2140,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Fried Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹60</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹60</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2157,7 +2157,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Kurkure Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹100 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹100</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2174,7 +2174,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Steamed Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹50</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹50</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2191,7 +2191,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Tandoori Momo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹130 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹130</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2226,7 +2226,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Garlic Noodles</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹60</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹60</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2243,7 +2243,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Noodles</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹100 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹100</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2260,7 +2260,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Singapuri Noodles</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹100 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹100</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2277,7 +2277,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Hakka Noodles</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹60</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹60</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2294,7 +2294,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Noodles</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹50</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹50</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2329,7 +2329,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chilli Garlic Fried Rice</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹110 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹110</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2346,7 +2346,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Fried Rice</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹130 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹90</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹130</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2363,7 +2363,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Corn Rice</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2380,7 +2380,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Fried Rice</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹70</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2397,7 +2397,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Singapuri Fried Rice</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120 <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small></span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Half: ₹80</small> <br/><small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2432,7 +2432,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Jeera Rice</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2449,7 +2449,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Kashmiri Pulao</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹130</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹130</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2466,7 +2466,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mutter Pulao</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2483,7 +2483,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Steamed Rice</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2500,7 +2500,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Hyderabadi Biryani</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹150</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹150</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2517,7 +2517,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Pulao</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2552,7 +2552,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mushroom Onion Pasta (Red Sauce)</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2569,7 +2569,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mushroom Onion Pasta (White Sauce)</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2586,7 +2586,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Pink Sauce Pasta</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹130</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹130</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2603,7 +2603,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Red Sauce Pasta</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹100</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹100</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2620,7 +2620,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>White Sauce Pasta</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹120</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹120</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2655,7 +2655,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Hot N Sour Soup</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹60</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹60</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2672,7 +2672,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Manchow Soup</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2689,7 +2689,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Talumein Soup</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹60</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹60</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2706,7 +2706,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tomato Soup</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2723,7 +2723,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Veg Sweet Corn Soup</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2758,7 +2758,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>China Town</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2775,7 +2775,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Kungfu Bowl</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹99</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹99</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2792,7 +2792,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Roll'S Roller</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹110</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹110</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2809,7 +2809,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Sip-N-Roll</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹110</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹110</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2826,7 +2826,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Thaar Roll'S</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹110</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹110</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2861,7 +2861,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chur-Chur Naan Thali</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹110</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹110</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2878,7 +2878,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Combo Bowl</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2895,7 +2895,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Delight Combo</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2912,7 +2912,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Malai Chaap + 2 Rumali + Cold Drink</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2929,7 +2929,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Masala Chaap + 2 Rumali + Cold Drink</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹170</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹170</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2946,7 +2946,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Paneer Tikka Masala + 2 Rumali + Cold Drink</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹180</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹180</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2963,7 +2963,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Regular Thali</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹150</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹150</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2980,7 +2980,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Standard Thali</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹100</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹100</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -2997,7 +2997,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Super Deluxe Thali</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹220</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹220</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3032,7 +3032,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Bisleri</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>MRP applicable</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: MRP applicable</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3049,7 +3049,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Coke</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>MRP applicable</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: MRP applicable</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3066,7 +3066,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Fanta</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>MRP applicable</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: MRP applicable</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3083,7 +3083,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Hot Chocolate Milk</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3100,7 +3100,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Hot Coffee</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹40</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹40</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3117,7 +3117,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Masala Tea</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹30</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹30</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3134,7 +3134,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Pepsi</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>MRP applicable</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: MRP applicable</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3151,7 +3151,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Tea</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹15</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹15</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3168,7 +3168,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Thums Up</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>MRP applicable</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: MRP applicable</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3203,7 +3203,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Blood Orange Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3220,7 +3220,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Blue Lagoon Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3237,7 +3237,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Green Apple Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3254,7 +3254,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mango Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3271,7 +3271,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Peach Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3288,7 +3288,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Pineapple Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3305,7 +3305,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Strawberry Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3322,7 +3322,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Virgin Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3339,7 +3339,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Water Melon Mojito</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹69</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹69</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3374,7 +3374,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Blueberry Milk Shake</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3391,7 +3391,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Chocolate Milk Shake</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3408,7 +3408,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Cold Coffee</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3425,7 +3425,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Kit-Kat Milk Shake</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3442,7 +3442,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Mango Milk Shake</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3459,7 +3459,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Oreo Milk Shake</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹80</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹80</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3476,7 +3476,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Pineapple Milk Shake</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3493,7 +3493,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Strawberry Milk Shake</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3510,7 +3510,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Vanilla Milk Shake</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹70</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹70</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3545,7 +3545,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Boondi Raita</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹35</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹35</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3562,7 +3562,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Fresh Plain Curd</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹30</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹30</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3597,7 +3597,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Gulab Jamun (Per Pc)</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹40</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹40</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3614,7 +3614,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Special Thandi Kheer</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹90</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹90</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
@@ -3631,7 +3631,7 @@ const Menu = () => {
                                             <div className="menu-item-title" style={{ alignItems: 'flex-start' }}>
                                                 <h3>Sponge Rasgulla (Per Pc)</h3>
                                                 <hr style={{ alignSelf: 'center', flex: 1, margin: '0 15px' }} />
-                                                <span style={{ textAlign: 'right' }}>₹50</span>
+                                                <span style={{ textAlign: 'right' }}>{<small style={{whiteSpace: 'nowrap', fontSize: '0.9em'}}>Full: ₹50</small>}</span>
                                             </div>
                                             <div className="menu-item-content">
                                                 <p></p>
