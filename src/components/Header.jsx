@@ -52,7 +52,7 @@ const Header = () => {
                     <div className="container">
                         {/* Logo Start */}
                         <Link className="navbar-brand" to="/">
-                            <img src="/images/logo.png" alt="Golden Spoon Restaurant" />
+                            <img src="/images/logo2.png" alt="Golden Spoon Restaurant" />
                         </Link>
                         {/* Logo End */}
 

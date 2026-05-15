@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="footer-content">
                             {/* Footer Logo Start */}
                             <div className="footer-logo">
-                                <img src="/images/logo.png" alt="Golden Spoon Restaurant" />
+                                <img src="/images/logo2.png" alt="Golden Spoon Restaurant" />
                             </div>
                             {/* Footer Logo End */}
 

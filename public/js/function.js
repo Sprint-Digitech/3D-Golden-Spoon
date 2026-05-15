@@ -16,7 +16,7 @@
 		});
 
 		function setHeaderHeight(){
-	 		$("header.main-header").css("height", $('header .header-sticky').outerHeight());
+	 		$("header.main-header").css("height", $('header .header-sticky').outerHeight() - 20 + "px");
 		}	
 	
 		$window.on("scroll", function() {
