@@ -179,7 +179,7 @@ const Testimonial = () => {
                             <i className="fa-solid fa-star"></i>
                         </div>
                         <div className="testimonial-box-content">
-                            <p>The food at SpicyHunt is truly extraordinary, with every dish showcasing exceptional attention to detail, flavor, and creativity.</p>
+                            <p>The food at Golden Spoon Restaurant is truly extraordinary, with every dish showcasing exceptional attention to detail, flavor, and creativity.</p>
                         </div>
                         <div className="client-author-image">
                             <figure className="image-anime">
@@ -216,9 +216,9 @@ const Testimonial = () => {
                         <div className="reserve-table-body">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>10:00 AM - 09:00 PM</span></li>
-                                <li>Fri - Sat <span>09:00 AM - 10:00 PM</span></li>
-                                <li>Sun <span>Closed</span></li>
+                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
                             </ul>
                         </div>
                         

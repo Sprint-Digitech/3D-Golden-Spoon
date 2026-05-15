@@ -16,7 +16,7 @@ export const useInitAnimations = () => {
 
             /* Swiper Init */
             if (window.Swiper) {
-                if ($('.hero-slider-layout').length) {
+                if ($('.hero-slider-layout').length && !$('.hero-slider-layout .swiper-initialized').length) {
                     new window.Swiper('.hero-slider-layout .swiper', {
                         effect: 'fade',
                         slidesPerView : 1,
@@ -28,7 +28,7 @@ export const useInitAnimations = () => {
                     });
                 }
                 
-                if ($('.testimonial-slider').length) {
+                if ($('.testimonial-slider').length && !$('.testimonial-slider .swiper-initialized').length) {
                     new window.Swiper('.testimonial-slider .swiper', {
                         slidesPerView : 1,
                         speed: 1000,
@@ -45,6 +45,11 @@ export const useInitAnimations = () => {
                 }
             }
 
+            /* Youtube Background Video JS */
+            if ($('#herovideo').length && $.fn.YTPlayer) {
+                $("#herovideo").YTPlayer();
+            }
+
             /* Text Effect Animation */
             if ($('.text-anime-style-1').length && window.SplitText && window.gsap) {
                 let staggerAmount = 0.05,
@@ -52,6 +57,9 @@ export const useInitAnimations = () => {
                     animatedTextElements = document.querySelectorAll('.text-anime-style-1');
                 
                 animatedTextElements.forEach((element) => {
+                    if (element.classList.contains('is-animated') || element.querySelector('.split-line')) return;
+                    element.classList.add('is-animated');
+                    
                     let animationSplitText = new window.SplitText(element, { type: "chars, words" });
                     window.gsap.from(animationSplitText.words, {
                         duration: 1,
@@ -72,6 +80,9 @@ export const useInitAnimations = () => {
                     animatedTextElements = document.querySelectorAll('.text-anime-style-2');
                 
                 animatedTextElements.forEach((element) => {
+                    if (element.classList.contains('is-animated') || element.querySelector('.split-char')) return;
+                    element.classList.add('is-animated');
+
                     let animationSplitText = new window.SplitText(element, { type: "chars, words" });
                     window.gsap.from(animationSplitText.chars, {
                         duration: 1,
@@ -89,6 +100,9 @@ export const useInitAnimations = () => {
                 let animatedTextElements = document.querySelectorAll('.text-anime-style-3');
                 
                 animatedTextElements.forEach((element) => {
+                    if (element.classList.contains('is-animated')) return;
+                    element.classList.add('is-animated');
+
                     if (element.animation) {
                         element.animation.progress(1).kill();
                         element.split.revert();
@@ -150,17 +164,15 @@ export const useInitAnimations = () => {
             if (window.WOW) {
                 if (!window.wowInstance) {
                     window.wowInstance = new window.WOW({
-                        live: false // Do not use mutation observer, we will sync manually
+                        live: false 
                     });
                     window.wowInstance.init();
                 } else {
-                    // Sync wow elements
                     window.wowInstance.sync();
                 }
-                // Force wow elements to be visible if they are already in viewport (React sometimes causes timing issues)
                 setTimeout(() => {
                     window.dispatchEvent(new Event('scroll'));
-                }, 300);
+                }, 100);
             }
 
             /* Popup Video */
@@ -175,16 +187,11 @@ export const useInitAnimations = () => {
             }
         };
 
-        // Run after a slight delay to ensure DOM is rendered by React
-        // We run it multiple times to ensure everything catches up
-        const timer1 = setTimeout(init, 100);
-        const timer2 = setTimeout(init, 500);
-        const timer3 = setTimeout(init, 1000);
+        // Use a single timeout to avoid multiple refreshes
+        const timer = setTimeout(init, 500);
         
         return () => {
-            clearTimeout(timer1);
-            clearTimeout(timer2);
-            clearTimeout(timer3);
+            clearTimeout(timer);
         };
     }, [location]);
 };

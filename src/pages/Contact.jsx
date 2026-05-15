@@ -52,9 +52,8 @@ const Contact = () => {
                         
                         <div className="contact-info-list wow fadeInUp" data-wow-delay="0.4s">
                             <ul>
-                                <li>27 Division St, New York, NY 10002, USA</li>
-                                <li><a href="tel:780859632">+01 780 859 632</a></li>
-                                <li><a href="#">info@domainname.com</a></li>
+                                <li>F-111 Sector-8 Noida Top Floor</li>
+                                <li><a href="tel:9217014763">9217014763</a></li>
                             </ul>
                         </div>
                         
@@ -62,9 +61,8 @@ const Contact = () => {
                         
                         <div className="contact-social-list wow fadeInUp" data-wow-delay="0.6s">
                             <ul>
-                                <li><a href="#"><i className="fa-brands fa-dribbble"></i></a></li>
                                 <li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/golden_spoon_restaurrant?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
                         
@@ -122,7 +120,7 @@ const Contact = () => {
                 <div className="col-lg-12">
                     
                     <div className="google-map-iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.461937922718!2d77.3197669!3d28.5859187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce50700000001%3A0x4000000000000000!2sF-111%2C%20Sector%208%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1715760000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     
                 </div>
@@ -149,9 +147,9 @@ const Contact = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>10:00 AM - 09:00 PM</span></li>
-                                <li>Fri - Sat <span>09:00 AM - 10:00 PM</span></li>
-                                <li>Sun <span>Closed</span></li>
+                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
                             </ul>
                         </div>
                         
@@ -192,12 +190,15 @@ const Contact = () => {
                                     <label className="form-label">time</label>
                                     <select name="time" className="form-control form-select" id="time" required>
                                         <option value="" disabled defaultValue>Select time</option>
-                                        <option value="6_30pm">06:30 PM</option>
+                                        <option value="11_00am">11:00 AM</option>
+                                        <option value="12_00pm">12:00 PM</option>
+                                        <option value="1_00pm">01:00 PM</option>
+                                        <option value="2_00pm">02:00 PM</option>
+                                        <option value="3_00pm">03:00 PM</option>
+                                        <option value="4_00pm">04:00 PM</option>
+                                        <option value="5_00pm">05:00 PM</option>
+                                        <option value="6_00pm">06:00 PM</option>
                                         <option value="7_00pm">07:00 PM</option>
-                                        <option value="7_30pm">07:30 PM</option>
-                                        <option value="8_00pm">08:00 PM</option>
-                                        <option value="8_30pm">08:30 PM</option>
-                                        <option value="9_00pm">09:00 PM</option>
                                     </select>
                                     <div className="help-block with-errors"></div>
                                 </div>

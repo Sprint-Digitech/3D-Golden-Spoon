@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="footer-content">
                             {/* Footer Logo Start */}
                             <div className="footer-logo">
-                                <img src="/images/logo.svg" alt="Footer Logo" />
+                                <img src="/images/logo.png" alt="Golden Spoon Restaurant" />
                             </div>
                             {/* Footer Logo End */}
 
@@ -23,7 +23,7 @@ const Footer = () => {
                                         <img src="/images/icon-location.svg" alt="Location" />
                                     </div>
                                     <div className="footer-contact-content">
-                                        <p>4517 Washington Ave, Kentucky 39495</p>
+                                        <p>F-111 Sector-8 Noida Top Floor</p>
                                     </div>
                                 </div>
                                 {/* Footer Contact Item End */}
@@ -34,10 +34,21 @@ const Footer = () => {
                                         <img src="/images/icon-phone.svg" alt="Phone" />
                                     </div>
                                     <div className="footer-contact-content">
-                                        <p><a href="tel:078859632">+01 780 859 632</a></p>
+                                        <p><a href="tel:9217014763">9217014763</a></p>
                                     </div>
                                 </div>
                                 {/* Footer Contact Item End */}
+
+                                {/* Timing Item Start */}
+                                <div className="footer-contact-item">
+                                    <div className="icon-box">
+                                        <i className="fa-regular fa-clock" style={{color: '#C1B696', fontSize: '20px'}}></i>
+                                    </div>
+                                    <div className="footer-contact-content">
+                                        <p>11:00am to 7:00pm</p>
+                                    </div>
+                                </div>
+                                {/* Timing Item End */}
                             </div>
                             {/* Footer Contact Box End */}
                         </div>
@@ -52,9 +63,8 @@ const Footer = () => {
                             {/* Footer Social Icon Start */}
                             <div className="footer-social-icon">
                                 <ul>
-                                    <li><a href="#"><i className="fa-brands fa-dribbble"></i></a></li>
+                                    <li><a href="https://www.instagram.com/golden_spoon_restaurrant?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
                                     <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                             {/* Footer Social Icon End */}
@@ -63,7 +73,7 @@ const Footer = () => {
                         <div className="col-lg-6 col-md-6">
                             {/* Footer Copyright Start */}
                             <div className="footer-copyright-text">
-                                <p>Copyright © 2025 All Rights Reserved.</p>
+                                <p>Copyright © 2025 Golden Spoon Restaurant. All Rights Reserved.</p>
                             </div>
                             {/* Footer Copyright End */}
                         </div>

@@ -188,7 +188,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Spring rolls</h3>
                                         <hr />
-                                        <span>$16.00</span>
+                                        <span>₹16.00</span>
                                     </div>
                                     
 
@@ -218,7 +218,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Aloo tikki</h3>
                                         <hr />
-                                        <span>$12.00</span>
+                                        <span>₹12.00</span>
                                     </div>
                                     
 
@@ -248,7 +248,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Paneer tikka</h3>
                                         <hr />
-                                        <span>$26.00</span>
+                                        <span>₹26.00</span>
                                     </div>
                                     
 
@@ -278,7 +278,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Hara kebab</h3>
                                         <hr />
-                                        <span>$20.00</span>
+                                        <span>₹20.00</span>
                                     </div>
                                     
 
@@ -308,7 +308,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Chili mushrooms</h3>
                                         <hr />
-                                        <span>$10.00</span>
+                                        <span>₹10.00</span>
                                     </div>
                                     
 
@@ -338,7 +338,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Veg Pakoras</h3>
                                         <hr />
-                                        <span>$22.00</span>
+                                        <span>₹22.00</span>
                                     </div>
                                     
 
@@ -393,7 +393,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Veg biryani</h3>
                                         <hr />
-                                        <span>$06.00</span>
+                                        <span>₹06.00</span>
                                     </div>
                                     
 
@@ -423,7 +423,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Baingan bharta</h3>
                                         <hr />
-                                        <span>$05.00</span>
+                                        <span>₹05.00</span>
                                     </div>
                                     
 
@@ -453,7 +453,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Paneer Butter</h3>
                                         <hr />
-                                        <span>$06.00</span>
+                                        <span>₹06.00</span>
                                     </div>
                                     
 
@@ -483,7 +483,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Palak Paneer</h3>
                                         <hr />
-                                        <span>$08.00</span>
+                                        <span>₹08.00</span>
                                     </div>
                                     
 
@@ -513,7 +513,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Aloo gobi</h3>
                                         <hr />
-                                        <span>$10.00</span>
+                                        <span>₹10.00</span>
                                     </div>
                                     
 
@@ -543,7 +543,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>Veg. curry</h3>
                                         <hr />
-                                        <span>$08.00</span>
+                                        <span>₹08.00</span>
                                     </div>
                                     
 
@@ -598,7 +598,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>grilled salmon</h3>
                                         <hr />
-                                        <span>$12.99</span>
+                                        <span>₹12.99</span>
                                     </div>
                                     
 
@@ -628,7 +628,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>calamari rings</h3>
                                         <hr />
-                                        <span>$05.00</span>
+                                        <span>₹05.00</span>
                                     </div>
                                     
 
@@ -658,7 +658,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>shrimp masala</h3>
                                         <hr />
-                                        <span>$09.10</span>
+                                        <span>₹09.10</span>
                                     </div>
                                     
 
@@ -688,7 +688,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>lobster roll</h3>
                                         <hr />
-                                        <span>$18.99</span>
+                                        <span>₹18.99</span>
                                     </div>
                                     
 
@@ -718,7 +718,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>fish tacos</h3>
                                         <hr />
-                                        <span>$12.10</span>
+                                        <span>₹12.10</span>
                                     </div>
                                     
 
@@ -748,7 +748,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>fish curry</h3>
                                         <hr />
-                                        <span>$18.50</span>
+                                        <span>₹18.50</span>
                                     </div>
                                     
 
@@ -803,7 +803,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>choco lava cake</h3>
                                         <hr />
-                                        <span>$06.99</span>
+                                        <span>₹06.99</span>
                                     </div>
                                     
 
@@ -833,7 +833,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>gulab jamun</h3>
                                         <hr />
-                                        <span>$15.00</span>
+                                        <span>₹15.00</span>
                                     </div>
                                     
 
@@ -863,7 +863,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>tiramisu</h3>
                                         <hr />
-                                        <span>$16.00</span>
+                                        <span>₹16.00</span>
                                     </div>
                                     
 
@@ -893,7 +893,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>vanilla panna</h3>
                                         <hr />
-                                        <span>$20.00</span>
+                                        <span>₹20.00</span>
                                     </div>
                                     
 
@@ -923,7 +923,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>berry cake</h3>
                                         <hr />
-                                        <span>$10.00</span>
+                                        <span>₹10.00</span>
                                     </div>
                                     
 
@@ -953,7 +953,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>apple pie</h3>
                                         <hr />
-                                        <span>$22.00</span>
+                                        <span>₹22.00</span>
                                     </div>
                                     
 
@@ -1008,7 +1008,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>mango lassi</h3>
                                         <hr />
-                                        <span>$04.50</span>
+                                        <span>₹04.50</span>
                                     </div>
                                     
 
@@ -1038,7 +1038,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>masala chai</h3>
                                         <hr />
-                                        <span>$05.50</span>
+                                        <span>₹05.50</span>
                                     </div>
                                     
 
@@ -1068,7 +1068,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>iced coffee</h3>
                                         <hr />
-                                        <span>$07.99</span>
+                                        <span>₹07.99</span>
                                     </div>
                                     
 
@@ -1098,7 +1098,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>mint mojito</h3>
                                         <hr />
-                                        <span>$04.99</span>
+                                        <span>₹04.99</span>
                                     </div>
                                     
 
@@ -1128,7 +1128,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>lemonade</h3>
                                         <hr />
-                                        <span>$05.10</span>
+                                        <span>₹05.10</span>
                                     </div>
                                     
 
@@ -1158,7 +1158,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>coconut water</h3>
                                         <hr />
-                                        <span>$03.99</span>
+                                        <span>₹03.99</span>
                                     </div>
                                     
 
@@ -1213,7 +1213,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>greek salad</h3>
                                         <hr />
-                                        <span>$06.00</span>
+                                        <span>₹06.00</span>
                                     </div>
                                     
 
@@ -1243,7 +1243,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>minestrone soup</h3>
                                         <hr />
-                                        <span>$05.00</span>
+                                        <span>₹05.00</span>
                                     </div>
                                     
 
@@ -1273,7 +1273,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>caesar salad</h3>
                                         <hr />
-                                        <span>$06.00</span>
+                                        <span>₹06.00</span>
                                     </div>
                                     
 
@@ -1303,7 +1303,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>chicken salad</h3>
                                         <hr />
-                                        <span>$08.00</span>
+                                        <span>₹08.00</span>
                                     </div>
                                     
 
@@ -1333,7 +1333,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>tomato soup</h3>
                                         <hr />
-                                        <span>$10.00</span>
+                                        <span>₹10.00</span>
                                     </div>
                                     
 
@@ -1363,7 +1363,7 @@ const Menu = () => {
                                     <div className="menu-item-title">
                                         <h3>sweet corn soup</h3>
                                         <hr />
-                                        <span>$08.00</span>
+                                        <span>₹08.00</span>
                                     </div>
                                     
 
@@ -1404,9 +1404,9 @@ const Menu = () => {
                         <div className="reserve-table-body">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>10:00 AM - 09:00 PM</span></li>
-                                <li>Fri - Sat <span>09:00 AM - 10:00 PM</span></li>
-                                <li>Sun <span>Closed</span></li>
+                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
                             </ul>
                         </div>
                         

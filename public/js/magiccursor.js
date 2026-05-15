@@ -124,4 +124,12 @@ class Cursor {
     }
 }
 // Init cursor
-const cursor = new Cursor();
+if (typeof gsap !== 'undefined') {
+    const cursor = new Cursor();
+} else {
+    window.addEventListener('load', () => {
+        if (typeof gsap !== 'undefined') {
+            const cursor = new Cursor();
+        }
+    });
+}

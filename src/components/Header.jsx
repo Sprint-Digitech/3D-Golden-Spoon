@@ -13,7 +13,7 @@ const Header = () => {
                 const headerHeight = headerSticky.offsetHeight;
                 const mainHeader = document.querySelector("header.main-header");
                 if (mainHeader) mainHeader.style.height = `${headerHeight}px`;
-                
+
                 if (fromTop > headerHeight + 100) {
                     headerSticky.classList.add("hide");
                 } else {
@@ -28,15 +28,16 @@ const Header = () => {
         };
 
         window.addEventListener('scroll', handleScroll);
-        
+
         // Re-init slicknav if needed
         if (window.$ && window.$('#menu').length) {
-            if(!window.$('.slicknav_menu').length) {
-                window.$('#menu').slicknav({
-                    label : '',
-                    prependTo : '.responsive-menu'
-                });
-            }
+            // Remove existing slicknav menu if it exists to avoid duplication on route change
+            window.$('.slicknav_menu').remove();
+
+            window.$('#menu').slicknav({
+                label: '',
+                prependTo: '.responsive-menu'
+            });
         }
 
         return () => {
@@ -51,7 +52,7 @@ const Header = () => {
                     <div className="container">
                         {/* Logo Start */}
                         <Link className="navbar-brand" to="/">
-                            <img src="/images/logo.svg" alt="Logo" />
+                            <img src="/images/logo.png" alt="Golden Spoon Restaurant" />
                         </Link>
                         {/* Logo End */}
 
@@ -59,9 +60,14 @@ const Header = () => {
                         <div className="collapse navbar-collapse main-menu">
                             <div className="nav-menu-wrapper">
                                 <ul className="navbar-nav mr-auto" id="menu">
-                                    <li className="nav-item">
+                                    <li className="nav-item submenu">
                                         <Link className="nav-link" to="/">Home</Link>
-                                    </li>                                
+                                        <ul>
+                                            <li className="nav-item"><Link className="nav-link" to="/index-2">Home - Image</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to="/index-video">Home - Video</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to="/index-slider">Home - Slider</Link></li>
+                                        </ul>
+                                    </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/about">About Us</Link>
                                     </li>
@@ -72,7 +78,7 @@ const Header = () => {
                                         <Link className="nav-link" to="/menu">Menu</Link>
                                     </li>
                                     <li className="nav-item submenu"><Link className="nav-link" to="#">Pages</Link>
-                                        <ul>                                        
+                                        <ul>
                                             <li className="nav-item"><Link className="nav-link" to="/chefs">Our Chefs</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to="/chef-single">Chef Single</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
@@ -86,7 +92,7 @@ const Header = () => {
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/contact">Contact Us</Link>
-                                    </li>                           
+                                    </li>
                                 </ul>
                             </div>
                             {/* Header Contact Box Start */}

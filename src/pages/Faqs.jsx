@@ -97,7 +97,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse1" className="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -451,9 +451,9 @@ const Faqs = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>10:00 AM - 09:00 PM</span></li>
-                                <li>Fri - Sat <span>09:00 AM - 10:00 PM</span></li>
-                                <li>Sun <span>Closed</span></li>
+                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
                             </ul>
                         </div>
                         

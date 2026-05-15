@@ -195,7 +195,7 @@ const About = () => {
                                             <div className="section-title">
                                                 <h3 className="wow fadeInUp">our mission</h3>
                                                 <h2 className="text-anime-style-2" data-cursor="-opaque">creating moments around flavor</h2>
-                                                <p className="wow fadeInUp" data-wow-delay="0.2s">At SpicyHunt, our vision is to redefine the dining experience by bringing people together over authentic, flavorful meals crafted with love and passion. We aim to be a beacon of culinary excellence, where every dish tells a story of tradition, innovation, and uncompromising quality.</p>
+                                                <p className="wow fadeInUp" data-wow-delay="0.2s">At Golden Spoon Restaurant, our vision is to redefine the dining experience by bringing people together over authentic, flavorful meals crafted with love and passion. We aim to be a beacon of culinary excellence, where every dish tells a story of tradition, innovation, and uncompromising quality.</p>
                                             </div>
                                             
 
@@ -234,7 +234,7 @@ const About = () => {
                                             <div className="section-title">
                                                 <h3>our vision</h3>
                                                 <h2 data-cursor="-opaque">creating moments around flavor</h2>
-                                                <p>At SpicyHunt, our vision is to redefine the dining experience by bringing people together over authentic, flavorful meals crafted with love and passion. We aim to be a beacon of culinary excellence, where every dish tells a story of tradition, innovation, and uncompromising quality.</p>
+                                                <p>At Golden Spoon Restaurant, our vision is to redefine the dining experience by bringing people together over authentic, flavorful meals crafted with love and passion. We aim to be a beacon of culinary excellence, where every dish tells a story of tradition, innovation, and uncompromising quality.</p>
                                             </div>
                                             
 
@@ -273,7 +273,7 @@ const About = () => {
                                             <div className="section-title">
                                                 <h3>our value</h3>
                                                 <h2 data-cursor="-opaque">creating moments around flavor</h2>
-                                                <p>At SpicyHunt, our vision is to redefine the dining experience by bringing people together over authentic, flavorful meals crafted with love and passion. We aim to be a beacon of culinary excellence, where every dish tells a story of tradition, innovation, and uncompromising quality.</p>
+                                                <p>At Golden Spoon Restaurant, our vision is to redefine the dining experience by bringing people together over authentic, flavorful meals crafted with love and passion. We aim to be a beacon of culinary excellence, where every dish tells a story of tradition, innovation, and uncompromising quality.</p>
                                             </div>
                                             
 
@@ -705,7 +705,7 @@ const About = () => {
                             </h2>
                             <div id="collapse1" className="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 10:00 AM to 10:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
                                 </div>
                             </div>
                         </div>
@@ -720,7 +720,7 @@ const About = () => {
                             </h2>
                             <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 10:00 AM to 10:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
                                 </div>
                             </div>
                         </div>
@@ -735,7 +735,7 @@ const About = () => {
                             </h2>
                             <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 10:00 AM to 10:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
                                 </div>
                             </div>
                         </div>
@@ -750,7 +750,7 @@ const About = () => {
                             </h2>
                             <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 10:00 AM to 10:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
                                 </div>
                             </div>
                         </div>
@@ -765,7 +765,7 @@ const About = () => {
                             </h2>
                             <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 10:00 AM to 10:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
                                 </div>
                             </div>
                         </div>
@@ -780,7 +780,7 @@ const About = () => {
                             </h2>
                             <div id="collapse6" className="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 10:00 AM to 10:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
                                 </div>
                             </div>
                         </div>
@@ -795,7 +795,7 @@ const About = () => {
                             </h2>
                             <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 10:00 AM to 10:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
                                 </div>
                             </div>
                         </div>
@@ -826,9 +826,9 @@ const About = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>10:00 AM - 09:00 PM</span></li>
-                                <li>Fri - Sat <span>09:00 AM - 10:00 PM</span></li>
-                                <li>Sun <span>Closed</span></li>
+                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
                             </ul>
                         </div>
                         

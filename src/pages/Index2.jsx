@@ -30,7 +30,7 @@ const Index2 = () => {
                         
                         <div className="hero-btn wow fadeInUp" data-wow-delay="0.4s">
                             <Link to="/contact" className="btn-default">book a table</Link>
-                            <a href="#" className="download-app-btn">download app <i className="fa-brands fa-google-play"></i></a>
+                            
                         </div>
                         
                     </div>
@@ -412,7 +412,7 @@ const Index2 = () => {
                                                 <div className="menu-item-title">
                                                     <h3>chips & dip</h3>
                                                     <hr />
-                                                    <span>$16.00</span>
+                                                    <span>₹16.00</span>
                                                 </div>
                                                 
 
@@ -442,7 +442,7 @@ const Index2 = () => {
                                                 <div className="menu-item-title">
                                                     <h3>caprese salad</h3>
                                                     <hr />
-                                                    <span>$12.00</span>
+                                                    <span>₹12.00</span>
                                                 </div>
                                                 
 
@@ -472,7 +472,7 @@ const Index2 = () => {
                                                 <div className="menu-item-title">
                                                     <h3>garlic fries</h3>
                                                     <hr />
-                                                    <span>$26.00</span>
+                                                    <span>₹26.00</span>
                                                 </div>
                                                 
 
@@ -502,7 +502,7 @@ const Index2 = () => {
                                                 <div className="menu-item-title">
                                                     <h3>tortilla soup</h3>
                                                     <hr />
-                                                    <span>$20.00</span>
+                                                    <span>₹20.00</span>
                                                 </div>
                                                 
 
@@ -532,7 +532,7 @@ const Index2 = () => {
                                                 <div className="menu-item-title">
                                                     <h3>kale salad</h3>
                                                     <hr />
-                                                    <span>$10.00</span>
+                                                    <span>₹10.00</span>
                                                 </div>
                                                 
 
@@ -562,7 +562,7 @@ const Index2 = () => {
                                                 <div className="menu-item-title">
                                                     <h3>thai curry</h3>
                                                     <hr />
-                                                    <span>$22.00</span>
+                                                    <span>₹22.00</span>
                                                 </div>
                                                 
 
@@ -604,7 +604,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Fish fry</h3>
                                                         <hr />
-                                                        <span>$26.00</span>
+                                                        <span>₹26.00</span>
                                                     </div>
                                                     
 
@@ -634,7 +634,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Prawn masala</h3>
                                                         <hr />
-                                                        <span>$28.00</span>
+                                                        <span>₹28.00</span>
                                                     </div>
                                                     
 
@@ -664,7 +664,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Pasta alfredo</h3>
                                                         <hr />
-                                                        <span>$30.00</span>
+                                                        <span>₹30.00</span>
                                                     </div>
                                                     
 
@@ -694,7 +694,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Sushi platter</h3>
                                                         <hr />
-                                                        <span>$20.00</span>
+                                                        <span>₹20.00</span>
                                                     </div>
                                                     
 
@@ -724,7 +724,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Veg biryani</h3>
                                                         <hr />
-                                                        <span>$29.00</span>
+                                                        <span>₹29.00</span>
                                                     </div>
                                                     
 
@@ -754,7 +754,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Mutton curry</h3>
                                                         <hr />
-                                                        <span>$24.00</span>
+                                                        <span>₹24.00</span>
                                                     </div>
                                                     
 
@@ -796,7 +796,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Fries</h3>
                                                         <hr />
-                                                        <span>$6.00</span>
+                                                        <span>₹6.00</span>
                                                     </div>
                                                     
 
@@ -826,7 +826,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Veggies</h3>
                                                         <hr />
-                                                        <span>$8.00</span>
+                                                        <span>₹8.00</span>
                                                     </div>
                                                     
 
@@ -856,7 +856,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Chips</h3>
                                                         <hr />
-                                                        <span>$7.00</span>
+                                                        <span>₹7.00</span>
                                                     </div>
                                                     
 
@@ -886,7 +886,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Mash</h3>
                                                         <hr />
-                                                        <span>$9.00</span>
+                                                        <span>₹9.00</span>
                                                     </div>
                                                     
 
@@ -916,7 +916,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Salad</h3>
                                                         <hr />
-                                                        <span>$4.00</span>
+                                                        <span>₹4.00</span>
                                                     </div>
                                                     
 
@@ -946,7 +946,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Slaw</h3>
                                                         <hr />
-                                                        <span>$10.00</span>
+                                                        <span>₹10.00</span>
                                                     </div>
                                                     
 
@@ -988,7 +988,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Tang yuan</h3>
                                                         <hr />
-                                                        <span>$16.00</span>
+                                                        <span>₹16.00</span>
                                                     </div>
                                                     
 
@@ -1018,7 +1018,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Egg custard</h3>
                                                         <hr />
-                                                        <span>$26.00</span>
+                                                        <span>₹26.00</span>
                                                     </div>
                                                     
 
@@ -1048,7 +1048,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Zabaione</h3>
                                                         <hr />
-                                                        <span>$21.00</span>
+                                                        <span>₹21.00</span>
                                                     </div>
                                                     
 
@@ -1078,7 +1078,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Almond soup</h3>
                                                         <hr />
-                                                        <span>$30.00</span>
+                                                        <span>₹30.00</span>
                                                     </div>
                                                     
 
@@ -1108,7 +1108,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Bomboloni</h3>
                                                         <hr />
-                                                        <span>$28.00</span>
+                                                        <span>₹28.00</span>
                                                     </div>
                                                     
 
@@ -1138,7 +1138,7 @@ const Index2 = () => {
                                                     <div className="menu-item-title">
                                                         <h3>Tiramisu</h3>
                                                         <hr />
-                                                        <span>$22.00</span>
+                                                        <span>₹22.00</span>
                                                     </div>
                                                     
 
@@ -1565,9 +1565,9 @@ const Index2 = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>10:00 AM - 09:00 PM</span></li>
-                                <li>Fri - Sat <span>09:00 AM - 10:00 PM</span></li>
-                                <li>Sun <span>Closed</span></li>
+                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
                             </ul>
                         </div>
                         
