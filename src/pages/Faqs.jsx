@@ -1,0 +1,542 @@
+
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
+const Faqs = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    return (
+        <main>
+            
+	
+
+    
+	<div className="page-header parallaxie">
+		<div className="container">
+			<div className="row">
+				<div className="col-lg-12">
+					
+					<div className="page-header-box">
+						<h1 className="text-anime-style-2" data-cursor="-opaque">Frequently asked question</h1>
+						<nav className="wow fadeInUp">
+							<ol className="breadcrumb">
+								<li className="breadcrumb-item"><Link to="/">home</Link></li>
+								<li className="breadcrumb-item active" aria-current="page">FAQs</li>
+							</ol>
+						</nav>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+    
+    <div className="page-faqs">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-4">
+                    
+                    <div className="faq-sidebar">
+                        
+                        <div className="faq-catagery-list wow fadeInUp">
+                            <ul>
+                                <li><a href="#general_information">general information</a></li>
+                                <li><a href="#services_and-offerings">services and offerings</a></li>
+                                <li><a href="#pricing_and_payment">pricing and payment</a></li>
+                                <li><a href="#orders_and_delivery">orders and delivery</a></li>
+                            </ul>
+                        </div>
+                        
+
+                        
+                        <div className="sidebar-cta-box wow fadeInUp" data-wow-delay="0.2s">
+                            
+                            <div className="icon-box">
+                                <img src="/images/icon-sidebar-cta.svg" alt="" />
+                            </div>
+                            
+
+                            
+                            <div className="cta-contact-content">
+                                <h3>You have different questions?</h3>
+                                <p>Our team will answer all your questions. we ensure a quick response.</p>
+                            </div>
+                            
+
+                            
+                            <div className="cta-contact-btn">
+                                <a href="tel:123456789" className="btn-default btn-highlighted"><img src="/images/icon-sidebar-cta-phone.svg" alt="" /> +123 456 789</a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div className="col-lg-8">
+                    
+                    <div className="page-faqs-catagery">
+                        
+                        <div className="faq-accordion page-faq-accordion" id="general_information">
+                            <div className="section-title">
+                                <h2 className="text-anime-style-2" data-cursor="-opaque">general <span>information</span></h2>
+                            </div>
+                            
+                            <div className="faq-accordion" id="accordion">
+                                
+                                <div className="accordion-item wow fadeInUp">
+                                    <h2 className="accordion-header" id="heading1">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                            1. What are your restaurant's hours of operation?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse1" className="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
+                                        <div className="accordion-body">
+                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 className="accordion-header" id="heading2">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            2. Do you offer takeout or delivery services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
+                                        <div className="accordion-body">
+                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <h2 className="accordion-header" id="heading3">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            3. Do I need to make a reservation?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
+                                        <div className="accordion-body">
+                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                                    <h2 className="accordion-header" id="heading4">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            4. Is parking available at your restaurant?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
+                                        <div className="accordion-body">
+                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                                    <h2 className="accordion-header" id="heading5">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                            5. Do you accommodate dietary restrictions?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
+                                        <div className="accordion-body">
+                                            <p>We are open daily from 11:00 AM to 11:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+
+                        
+                        <div className="faq-accordion page-faq-accordion" id="services_and-offerings">
+                            <div className="section-title">
+                                <h2 className="text-anime-style-2" data-cursor="-opaque">geneservices and <span>offerings</span></h2>
+                            </div>
+                            
+                            <div className="faq-accordion" id="accordion1">
+                                
+                                <div className="accordion-item wow fadeInUp">
+                                    <h2 className="accordion-header" id="heading6">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                            1. What type of cuisine do you offer?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse6" className="accordion-collapse collapse show" aria-labelledby="heading6" data-bs-parent="#accordion1">
+                                        <div className="accordion-body">
+                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 className="accordion-header" id="heading7">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                            2. Do you offer catering services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordion1">
+                                        <div className="accordion-body">
+                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <h2 className="accordion-header" id="heading8">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                            3. Can I customize my meal?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordion1">
+                                        <div className="accordion-body">
+                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                                    <h2 className="accordion-header" id="heading9">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                            4. Do you offer any special promotions or discounts?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordion1">
+                                        <div className="accordion-body">
+                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                                    <h2 className="accordion-header" id="heading10">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                            5. Is there a kids' menu available?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordion1">
+                                        <div className="accordion-body">
+                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                            
+                        </div>
+                        
+
+                        
+                        <div className="faq-accordion page-faq-accordion" id="pricing_and_payment">
+                            <div className="section-title">
+                                <h2 className="text-anime-style-2" data-cursor="-opaque">pricing <span>and payment</span></h2>
+                            </div>
+                            
+                            <div className="faq-accordion" id="accordion2">
+                                
+                                <div className="accordion-item wow fadeInUp">
+                                    <h2 className="accordion-header" id="heading11">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+                                            1. How are your prices determined?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse11" className="accordion-collapse collapse show" aria-labelledby="heading11" data-bs-parent="#accordion2">
+                                        <div className="accordion-body">
+                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 className="accordion-header" id="heading12">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                            2. Do you accept credit/debit cards?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse12" className="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordion2">
+                                        <div className="accordion-body">
+                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <h2 className="accordion-header" id="heading13">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                            3. Is tipping included in the bill?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse13" className="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordion2">
+                                        <div className="accordion-body">
+                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                                    <h2 className="accordion-header" id="heading14">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                            4. Do you offer any payment plans for large events or catering?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse14" className="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordion2">
+                                        <div className="accordion-body">
+                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                                    <h2 className="accordion-header" id="heading15">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                            5. Are there any hidden fees or charges?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse15" className="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordion2">
+                                        <div className="accordion-body">
+                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+
+                        
+                        <div className="faq-accordion page-faq-accordion" id="orders_and_delivery">
+                            <div className="section-title">
+                                <h2 className="text-anime-style-2" data-cursor="-opaque">orders and <span>and delivery</span></h2>
+                            </div>
+                            
+                            <div className="faq-accordion" id="accordion3">
+                                
+                                <div className="accordion-item wow fadeInUp">
+                                    <h2 className="accordion-header" id="heading16">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                                            1. How can I place an order for delivery?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse16" className="accordion-collapse collapse show" aria-labelledby="heading16" data-bs-parent="#accordion3">
+                                        <div className="accordion-body">
+                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 className="accordion-header" id="heading17">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
+                                            2. Is there a minimum order amount for delivery?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse17" className="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#accordion3">
+                                        <div className="accordion-body">
+                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <h2 className="accordion-header" id="heading18">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                            3. Is tipping included in the bill?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse18" className="accordion-collapse collapse" aria-labelledby="heading18" data-bs-parent="#accordion3">
+                                        <div className="accordion-body">
+                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                                    <h2 className="accordion-header" id="heading19">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="true" aria-controls="collapse19">
+                                            4. Do you offer any payment plans for large events or catering?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse19" className="accordion-collapse collapse" aria-labelledby="heading19" data-bs-parent="#accordion3">
+                                        <div className="accordion-body">
+                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                <div className="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                                    <h2 className="accordion-header" id="heading20">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                                            5. Are there any hidden fees or charges?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse20" className="accordion-collapse collapse" aria-labelledby="heading20" data-bs-parent="#accordion3">
+                                        <div className="accordion-body">
+                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <div className="reserve-table">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-6">
+                    
+                    <div className="reserve-table-content">
+                        
+                        <div className="section-title">
+                            <h3 className="wow fadeInUp">reserve a table</h3>
+                            <h2 className="text-anime-style-2" data-cursor="-opaque">reserve now your table and <span>enjoy dining experience.</span></h2>
+                        </div>
+                        
+
+                        
+                        <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
+                            <h3>open hours</h3>
+                            <ul>
+                                <li>Mon - Thu <span>10:00 AM - 09:00 PM</span></li>
+                                <li>Fri - Sat <span>09:00 AM - 10:00 PM</span></li>
+                                <li>Sun <span>Closed</span></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div className="col-lg-6">
+                    
+                    <div className="reserve-table-form">
+                        <form id="appointmentForm" action="#" method="POST" data-toggle="validator" className="wow fadeInUp">
+                            <div className="row">
+                                <div className="form-group col-md-12 mb-4">
+                                    <label className="form-label">your name</label>
+                                    <input type="text" name="name" className="form-control" id="name" placeholder="e.g. John" required />
+                                    <div className="help-block with-errors"></div>
+                                </div>
+
+                                <div className="form-group col-md-6 mb-4">
+                                    <label className="form-label">email address</label>
+                                    <input type="email" name ="email" className="form-control" id="email" placeholder="e.g. John@example.com" required />
+                                    <div className="help-block with-errors"></div>
+                                </div>
+                                
+                                <div className="form-group col-md-6 mb-4">
+                                    <label className="form-label">phone number</label>
+                                    <input type="text" name="phone" className="form-control" id="phone" placeholder="e.g. + 123 456 8792" required />
+                                    <div className="help-block with-errors"></div>
+                                </div>
+
+                                <div className="form-group col-md-4 mb-4">
+                                    <label className="form-label">date</label>
+                                    <input type="date" name="date" className="form-control" id="date" required />
+                                    <div className="help-block with-errors"></div>
+                                </div>
+
+                                <div className="form-group col-md-4 mb-4">
+                                    <label className="form-label">time</label>
+                                    <select name="time" className="form-control form-select" id="time" required>
+                                        <option value="" disabled defaultValue>Select time</option>
+                                        <option value="6_30pm">06:30 PM</option>
+                                        <option value="7_00pm">07:00 PM</option>
+                                        <option value="7_30pm">07:30 PM</option>
+                                        <option value="8_00pm">08:00 PM</option>
+                                        <option value="8_30pm">08:30 PM</option>
+                                        <option value="9_00pm">09:00 PM</option>
+                                    </select>
+                                    <div className="help-block with-errors"></div>
+                                </div>
+
+                                <div className="form-group col-md-4 mb-4">
+                                    <label className="form-label">Number Of Person</label>
+                                    <select name="person" className="form-control form-select" id="person" required>
+                                        <option value="" disabled defaultValue>number of person</option>
+                                        <option value="1_person">1 Person</option>
+                                        <option value="5_person">5 Person</option>
+                                        <option value="10_person">10 Person</option>
+                                        <option value="15_person">15 Person</option>
+                                        <option value="20_person">20 Person</option>
+                                    </select>
+                                    <div className="help-block with-errors"></div>
+                                </div>
+
+                                <div className="col-lg-12">
+                                    <div className="reserve-table-btn">
+                                        <button type="submit" className="btn-default">reserve now</button>
+                                        <div id="msgSubmit" className="h3 hidden"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+        </main>
+    );
+};
+
+export default Faqs;
