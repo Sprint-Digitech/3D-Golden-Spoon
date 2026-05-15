@@ -1,4 +1,4 @@
-
+﻿
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,6 +6,60 @@ const Home = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    const menuItemDescription = 'A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.';
+    const formatPrice = (amount) => `\u20B9${amount}`;
+
+    const homeMenuCategories = [
+        {
+            id: 'tandoor',
+            label: 'Tandoor',
+            items: [
+                { title: 'Achari Chaap', image: '/menu/achari-chaap.jpeg', price: formatPrice(120) },
+                { title: 'Achari Mushroom Tikka', image: '/menu/achari-mushroom-tikka.jpeg', price: formatPrice(220) },
+                { title: 'Achari Paneer Tikka', image: '/menu/achari-paneer-tikka.jpeg', price: formatPrice(130) },
+                { title: 'Afghani Chaap', image: '/menu/afghani-chaap.jpeg', price: formatPrice(130) },
+                { title: 'Dahi Ke Sholey', image: '/menu/dahi-ke-sholey.jpeg', price: formatPrice(150) },
+                { title: 'Haryali Chaap', image: '/menu/haryali-chaap.jpeg', price: formatPrice(120) },
+            ],
+        },
+        {
+            id: 'wrap-roll',
+            label: 'Wrap & Roll',
+            items: [
+                { title: 'Afghani Chaap Roll', image: '/menu/afghani-chaap-roll.jpeg', price: formatPrice(90) },
+                { title: 'Chilli Mushroom Wrap', image: '/menu/chilli-mushroom-wrap.jpeg', price: formatPrice(90) },
+                { title: 'Chilli Paneer Wrap', image: '/menu/chilli-paneer-wrap.jpeg', price: formatPrice(90) },
+                { title: 'Malai Chaap Roll', image: '/menu/malai-chaap-roll.png', price: formatPrice(90) },
+                { title: 'Paneer Roll', image: '/menu/paneer-roll.png', price: formatPrice(70) },
+                { title: 'Tandoori Chaap Roll', image: '/menu/tandoori-chaap-roll.jpeg', price: formatPrice(80) },
+            ],
+        },
+        {
+            id: 'roti-rasoi',
+            label: 'Roti Rasoi',
+            items: [
+                { title: 'Aloo Naan', image: '/menu/aloo-naan.jpeg', price: formatPrice(45) },
+                { title: 'Aloo Paratha', image: '/menu/aloo-paratha.jpeg', price: formatPrice(40) },
+                { title: 'Aloo Pyaaz Paratha', image: '/menu/aloo-pyaaz-paratha.jpeg', price: formatPrice(60) },
+                { title: 'Amritsari Kulcha', image: '/menu/amritsari-kulcha.png', price: formatPrice(80) },
+                { title: 'Butter Naan', image: '/menu/butter-naan.jpeg', price: formatPrice(40) },
+                { title: 'Classic Boondi Raita', image: '/menu/classic-boondi-raita.jpeg', price: formatPrice(56) },
+            ],
+        },
+        {
+            id: 'sandwiches-burgers',
+            label: 'Sandwiches & Burgers',
+            items: [
+                { title: 'Aloo Sandwich', image: '/menu/aloo-sandwich.jpeg', price: formatPrice(50) },
+                { title: 'Cheese Burger', image: '/menu/cheese-burger.jpeg', price: formatPrice(60) },
+                { title: 'Cheese Corn Sandwich', image: '/menu/cheese-corn-sandwich.jpeg', price: formatPrice(60) },
+                { title: 'Chilli Paneer Sandwich', image: '/menu/chilli-paneer-sandwich.jpeg', price: formatPrice(70) },
+                { title: 'Double Patty Burger', image: '/menu/double-patty-burger.jpeg', price: formatPrice(80) },
+                { title: 'Grilled Sandwich', image: '/menu/grilled-sandwich.jpeg', price: formatPrice(70) },
+            ],
+        },
+    ];
 
     return (
         <main>
@@ -206,12 +260,12 @@ const Home = () => {
                     <div className="our-dish-item wow fadeInUp">
                         <div className="our-dish-img">
                             <figure className="image-anime">
-                                <img src="/menu/tandoori-platter.jpeg" alt="Tandoor" />
+                                <img src="/images/our-dish-image-1.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="our-dish-content">
-                            <h3>tandoor</h3>
-                            <p>Smoky, chargrilled tandoor specials prepared fresh and full of bold flavor.</p>
+                            <h3>soups</h3>
+                            <p>Warm, comforting, and full of flavor, our soups avre the perfect start to any meal.</p>
                         </div>
                     </div>
                     
@@ -222,12 +276,12 @@ const Home = () => {
                     <div className="our-dish-item wow fadeInUp" data-wow-delay="0.2s">
                         <div className="our-dish-img">
                             <figure className="image-anime">
-                                <img src="/menu/wrap---roll.jpeg" alt="Wrap & Roll" />
+                                <img src="/images/our-dish-image-2.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="our-dish-content">
-                            <h3>wrap & roll</h3>
-                            <p>Fresh wraps and rolls packed with spicy fillings and satisfying textures.</p>
+                            <h3>salads</h3>
+                            <p>Refreshing, vibrant, and full of fresh flavors, our salads are crafted to senses.</p>
                         </div>
                     </div>
                     
@@ -238,12 +292,12 @@ const Home = () => {
                     <div className="our-dish-item wow fadeInUp" data-wow-delay="0.4s">
                         <div className="our-dish-img">
                             <figure className="image-anime">
-                                <img src="/menu/roti-rasoi.jpeg" alt="Roti Rasoi" />
+                                <img src="/images/our-dish-image-3.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="our-dish-content">
-                            <h3>roti rasoi</h3>
-                            <p>Soft rotis and fresh breads served with comforting homestyle accompaniments.</p>
+                            <h3>main dishes</h3>
+                            <p>Offering bold flavors and expertly crafted recipes that cater to every taste.</p>
                         </div>
                     </div>
                     
@@ -254,12 +308,12 @@ const Home = () => {
                     <div className="our-dish-item wow fadeInUp" data-wow-delay="0.6s">
                         <div className="our-dish-img">
                             <figure className="image-anime">
-                                <img src="/menu/veg-burger.jpeg" alt="Sandwiches & Burgers" />
+                                <img src="/images/our-dish-image-4.jpg" alt="" />
                             </figure>
                         </div>
                         <div className="our-dish-content">
-                            <h3>sandwiches & burgers</h3>
-                            <p>Crisp sandwiches and loaded burgers made for quick, hearty cravings.</p>
+                            <h3>appetizers</h3>
+                            <p>Our appetizers are the perfect way to begin your dining experience flavors.</p>
                         </div>
                     </div>
                     
@@ -372,791 +426,61 @@ const Home = () => {
                         
                         <div className="our-menu-tab-nav wow fadeInUp" data-wow-delay="0.2s">
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
-                                <li className="nav-item" role="presentation">
-                                    <button className="nav-link active" id="appetizers-tab" data-bs-toggle="tab" data-bs-target="#appetizers" type="button" role="tab" aria-selected="true">appetizers</button>
-                                </li>                                
-                                <li className="nav-item" role="presentation">
-                                    <button className="nav-link" id="maincourses-tab" data-bs-toggle="tab" data-bs-target="#maincourses" type="button" role="tab" aria-selected="false">main courses</button>
-                                </li>                                
-                                <li className="nav-item" role="presentation">
-                                    <button className="nav-link" id="sides-tab" data-bs-toggle="tab" data-bs-target="#sides" type="button" role="tab" aria-selected="false">sides</button>
-                                </li>                                
-                                <li className="nav-item" role="presentation">
-                                    <button className="nav-link" id="desserts-tab" data-bs-toggle="tab" data-bs-target="#desserts" type="button" role="tab" aria-selected="false">desserts</button>
-                                </li>
+                                {homeMenuCategories.map((category, index) => (
+                                    <li className="nav-item" role="presentation" key={category.id}>
+                                        <button
+                                            className={"nav-link" + (index === 0 ? " active" : "")}
+                                            id={category.id + "-tab"}
+                                            data-bs-toggle="tab"
+                                            data-bs-target={"#" + category.id}
+                                            type="button"
+                                            role="tab"
+                                            aria-selected={index === 0}
+                                        >
+                                            {category.label}
+                                        </button>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         
 
                         
                         <div className="tab-content" id="myTabContent">
-                            
-                            <div className="tab-pane fade show active" id="appetizers" role="tabpanel">
-                                <div className="row align-items-center">
-                                    <div className="col-lg-12">
-                                        
-                                        <div className="our-menu-list">
-                                        
-                                        <div className="our-menu-item">
-                                            
-                                            <div className="our-menu-image">
-                                                <figure>
-                                                    <img src="/images/our-menu-image-1.png" alt="" />
-                                                </figure>
+                            {homeMenuCategories.map((category, categoryIndex) => (
+                                <div
+                                    className={"tab-pane fade" + (categoryIndex === 0 ? " show active" : "")}
+                                    id={category.id}
+                                    role="tabpanel"
+                                    key={category.id}
+                                >
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-12">
+                                            <div className="our-menu-list">
+                                                {category.items.map((item, itemIndex) => (
+                                                    <div className="our-menu-item wow fadeInUp" data-wow-delay={(itemIndex * 0.2) + "s"} key={item.title}>
+                                                        <div className="our-menu-image">
+                                                            <figure>
+                                                                <img src={item.image} style={{width: '100px', height: '100px', objectFit: 'cover', borderRadius: '50%'}} alt={item.title} />
+                                                            </figure>
+                                                        </div>
+                                                        <div className="menu-item-body">
+                                                            <div className="menu-item-title">
+                                                                <h3>{item.title}</h3>
+                                                                <hr />
+                                                                <span>{item.price}</span>
+                                                            </div>
+                                                            <div className="menu-item-content">
+                                                                <p>{menuItemDescription}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                ))}
                                             </div>
-                                            
-
-                                            
-                                            <div className="menu-item-body">
-                                                
-                                                <div className="menu-item-title">
-                                                    <h3>chips & dip</h3>
-                                                    <hr />
-                                                    <span>₹16.00</span>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-content">
-                                                    <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                </div>
-                                                
-                                            </div>
-                                            
                                         </div>
-                                        
-
-                                        
-                                        <div className="our-menu-item">
-                                            
-                                            <div className="our-menu-image">
-                                                <figure>
-                                                    <img src="/images/our-menu-image-2.png" alt="" />
-                                                </figure>
-                                            </div>
-                                            
-
-                                            
-                                            <div className="menu-item-body">
-                                                
-                                                <div className="menu-item-title">
-                                                    <h3>caprese salad</h3>
-                                                    <hr />
-                                                    <span>₹12.00</span>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-content">
-                                                    <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                        
-
-                                        
-                                        <div className="our-menu-item">
-                                            
-                                            <div className="our-menu-image">
-                                                <figure>
-                                                    <img src="/images/our-menu-image-3.png" alt="" />
-                                                </figure>
-                                            </div>
-                                            
-
-                                            
-                                            <div className="menu-item-body">
-                                                
-                                                <div className="menu-item-title">
-                                                    <h3>garlic fries</h3>
-                                                    <hr />
-                                                    <span>₹26.00</span>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-content">
-                                                    <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                        
-
-                                        
-                                        <div className="our-menu-item">
-                                            
-                                            <div className="our-menu-image">
-                                                <figure>
-                                                    <img src="/images/our-menu-image-4.png" alt="" />
-                                                </figure>
-                                            </div>
-                                            
-
-                                            
-                                            <div className="menu-item-body">
-                                                
-                                                <div className="menu-item-title">
-                                                    <h3>tortilla soup</h3>
-                                                    <hr />
-                                                    <span>₹20.00</span>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-content">
-                                                    <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                        
-
-                                        
-                                        <div className="our-menu-item">
-                                            
-                                            <div className="our-menu-image">
-                                                <figure>
-                                                    <img src="/images/our-menu-image-5.png" alt="" />
-                                                </figure>
-                                            </div>
-                                            
-
-                                            
-                                            <div className="menu-item-body">
-                                                
-                                                <div className="menu-item-title">
-                                                    <h3>kale salad</h3>
-                                                    <hr />
-                                                    <span>₹10.00</span>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-content">
-                                                    <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                        
-
-                                        
-                                        <div className="our-menu-item">
-                                            
-                                            <div className="our-menu-image">
-                                                <figure>
-                                                    <img src="/images/our-menu-image-6.png" alt="" />
-                                                </figure>
-                                            </div>
-                                            
-
-                                            
-                                            <div className="menu-item-body">
-                                                
-                                                <div className="menu-item-title">
-                                                    <h3>thai curry</h3>
-                                                    <hr />
-                                                    <span>₹22.00</span>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-content">
-                                                    <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                        
-                                        </div>
-                                        
                                     </div>
                                 </div>
-                            </div>
-                            
-
-                            
-                            <div className="tab-pane fade" id="maincourses" role="tabpanel">
-                                <div className="row align-items-center">
-                                    <div className="col-lg-12">
-                                        
-                                         <div className="our-menu-list">
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-1.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Fish fry</h3>
-                                                        <hr />
-                                                        <span>₹26.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-2.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Prawn masala</h3>
-                                                        <hr />
-                                                        <span>₹28.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-3.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Pasta alfredo</h3>
-                                                        <hr />
-                                                        <span>₹30.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-4.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Sushi platter</h3>
-                                                        <hr />
-                                                        <span>₹20.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-5.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Veg biryani</h3>
-                                                        <hr />
-                                                        <span>₹29.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-6.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Mutton curry</h3>
-                                                        <hr />
-                                                        <span>₹24.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                         </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-
-                            
-                            <div className="tab-pane fade" id="sides" role="tabpanel">
-                                <div className="row align-items-center">
-                                    <div className="col-lg-12">
-                                        
-                                         <div className="our-menu-list">
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-1.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Fries</h3>
-                                                        <hr />
-                                                        <span>₹6.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-2.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Veggies</h3>
-                                                        <hr />
-                                                        <span>₹8.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-3.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Chips</h3>
-                                                        <hr />
-                                                        <span>₹7.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-4.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Mash</h3>
-                                                        <hr />
-                                                        <span>₹9.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-5.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Salad</h3>
-                                                        <hr />
-                                                        <span>₹4.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-6.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Slaw</h3>
-                                                        <hr />
-                                                        <span>₹10.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                         </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-
-                            
-                            <div className="tab-pane fade" id="desserts" role="tabpanel">
-                                <div className="row align-items-center">
-                                    <div className="col-lg-12">
-                                        
-                                         <div className="our-menu-list">
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-1.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Tang yuan</h3>
-                                                        <hr />
-                                                        <span>₹16.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-2.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Egg custard</h3>
-                                                        <hr />
-                                                        <span>₹26.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-3.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Zabaione</h3>
-                                                        <hr />
-                                                        <span>₹21.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-4.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Almond soup</h3>
-                                                        <hr />
-                                                        <span>₹30.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-5.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Bomboloni</h3>
-                                                        <hr />
-                                                        <span>₹28.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-
-                                            
-                                            <div className="our-menu-item">
-                                                
-                                                <div className="our-menu-image">
-                                                    <figure>
-                                                        <img src="/images/our-menu-image-6.png" alt="" />
-                                                    </figure>
-                                                </div>
-                                                
-
-                                                
-                                                <div className="menu-item-body">
-                                                    
-                                                    <div className="menu-item-title">
-                                                        <h3>Tiramisu</h3>
-                                                        <hr />
-                                                        <span>₹22.00</span>
-                                                    </div>
-                                                    
-
-                                                    
-                                                    <div className="menu-item-content">
-                                                        <p>A perfect pairing of crispy, freshly made chips and rich, flavorful dips that bring a burst of taste in every bite.</p>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                            
-                                         </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
+                            ))}
                         </div>
                         
                     </div>
@@ -1173,9 +497,7 @@ const Home = () => {
             </div>
         </div>
     </div>
-    
 
-    
     <div className="intro-video">
         <div className="container-fluid">
             <div className="row">
@@ -1654,3 +976,4 @@ const Home = () => {
 };
 
 export default Home;
+
