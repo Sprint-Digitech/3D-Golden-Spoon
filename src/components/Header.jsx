@@ -1,8 +1,37 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+
+const THEME_STORAGE_KEY = 'golden-spoon-theme';
+
+const getInitialTheme = () => {
+    if (typeof window === 'undefined') {
+        return 'dark';
+    }
+
+    try {
+        const storedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
+        return storedTheme === 'light' ? 'light' : 'dark';
+    } catch (error) {
+        return 'dark';
+    }
+};
 
 const Header = () => {
     const location = useLocation();
+    const logoSrc = '/images/golden-spoon-logo.png';
+    const [theme, setTheme] = useState(getInitialTheme);
+
+    useEffect(() => {
+        const root = document.documentElement;
+        root.dataset.theme = theme;
+        root.style.colorScheme = theme;
+
+        try {
+            window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+        } catch (error) {
+            // Ignore storage failures and keep the in-memory theme active.
+        }
+    }, [theme]);
 
     useEffect(() => {
         // Sticky Header Logic
@@ -45,14 +74,22 @@ const Header = () => {
         };
     }, [location]);
 
+    const isDarkTheme = theme === 'dark';
+
     return (
         <header className="main-header">
             <div className="header-sticky">
                 <nav className="navbar navbar-expand-lg">
                     <div className="container">
                         {/* Logo Start */}
-                        <Link className="navbar-brand" to="/">
-                            <img src="/images/logo2.png" alt="Golden Spoon Restaurant" />
+                        <Link className="navbar-brand" to="/" aria-label="Golden Spoon Restaurant home">
+                            <img
+                                className="site-logo site-logo--header"
+                                src={logoSrc}
+                                alt="Golden Spoon Restaurant logo"
+                                loading="eager"
+                                decoding="async"
+                            />
                         </Link>
                         {/* Logo End */}
 
@@ -95,13 +132,26 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                        {/* Main Menu End */}
+                        <div className="header-controls">
                             {/* Header Contact Box Start */}
                             <div className="header-btn">
                                 <Link to="/contact" className="btn-default">book a table</Link>
                             </div>
                             {/* Header Contact Box End */}
+
+                            <button
+                                type="button"
+                                className="theme-toggle-btn"
+                                onClick={() => setTheme((currentTheme) => (currentTheme === 'dark' ? 'light' : 'dark'))}
+                                aria-label={isDarkTheme ? 'Switch to light theme' : 'Switch to dark theme'}
+                                aria-pressed={!isDarkTheme}
+                                title={isDarkTheme ? 'Switch to light theme' : 'Switch to dark theme'}
+                            >
+                                <i className={`fa-solid ${isDarkTheme ? 'fa-sun' : 'fa-moon'}`}></i>
+                            </button>
                         </div>
-                        {/* Main Menu End */}
                         <div className="navbar-toggle"></div>
                     </div>
                 </nav>

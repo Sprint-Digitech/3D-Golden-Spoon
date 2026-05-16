@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>Golden Spoon Restaurant</title>
+    <script>
+      (function () {
+        try {
+          var storedTheme = localStorage.getItem('golden-spoon-theme');
+          var theme = storedTheme === 'light' ? 'light' : 'dark';
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'dark';
+          document.documentElement.style.colorScheme = 'dark';
+        }
+      })();
+    </script>
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png">
     <!-- Google Fonts Css-->

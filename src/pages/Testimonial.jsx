@@ -1,6 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { googleReviews } from '../data/googleReviews';
 
 const Testimonial = () => {
     useEffect(() => {
@@ -38,161 +39,29 @@ const Testimonial = () => {
     <div className="page-testimonials">
         <div className="container">
             <div className="row">
-                <div className="col-lg-4 col-md-6">
-                    
-                    <div className="testimonial-box-item wow fadeInUp">	
-                        <div className="testimonial-rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                        </div>
-                        <div className="testimonial-box-content">
-                            <p>The food here was exceptional, especially their Butter Garlic Prawns! The ambiance was cozy and cheerful. I'll definitely visit again.</p>
-                        </div>
-                        <div className="client-author-image">
-                            <figure className="image-anime">
-                                <img src="/images/client-1.jpg" alt="" />
-                            </figure>
-                        </div>            
-                        <div className="client-author-content">
-                            <h3>anshul gupta</h3>
-                            <p>food blogger</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div className="col-lg-4 col-md-6">
-                    
-                    <div className="testimonial-box-item wow fadeInUp" data-wow-delay="0.2s">	
-                        <div className="testimonial-rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                        </div>
-                        <div className="testimonial-box-content">
-                            <p>The staff was helpful, attentive, and friendly. We ordered Spicy Bites, which exceeded our expectations in both taste and presentation.</p>
-                        </div>
-                        <div className="client-author-image">
-                            <figure className="image-anime">
-                                <img src="/images/client-2.jpg" alt="" />
-                            </figure>
-                        </div>            
-                        <div className="client-author-content">
-                            <h3>pooja sharma</h3>
-                            <p>lifestyle influencer</p>
+                {googleReviews.map((review, index) => (
+                    <div className="col-lg-4 col-md-6" key={review.name}>
+                        <div className="testimonial-box-item wow fadeInUp" data-wow-delay={`${index * 0.2}s`}>
+                            <div className="testimonial-rating" aria-label={`${review.rating} out of 5 stars`}>
+                                {Array.from({ length: review.rating }).map((_, starIndex) => (
+                                    <i className="fa-solid fa-star" key={`${review.name}-star-${starIndex}`}></i>
+                                ))}
+                            </div>
+                            <div className="testimonial-box-content">
+                                <p>{review.summary}</p>
+                            </div>
+                            <div className="client-author-image">
+                                <figure className="image-anime">
+                                    <img src={review.avatar} alt={`${review.name} review avatar`} />
+                                </figure>
+                            </div>
+                            <div className="client-author-content">
+                                <h3>{review.name}</h3>
+                                <p>{review.meta}</p>
+                            </div>
                         </div>
                     </div>
-                    
-                </div>
-
-                <div className="col-lg-4 col-md-6">
-                    
-                    <div className="testimonial-box-item wow fadeInUp" data-wow-delay="0.4s">	
-                        <div className="testimonial-rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                        </div>
-                        <div className="testimonial-box-content">
-                            <p>This restaurant serves delicious food with amazing presentation. The Fire Grill Platter was a big hit with my entire family and friends!</p>
-                        </div>
-                        <div className="client-author-image">
-                            <figure className="image-anime">
-                                <img src="/images/client-3.jpg" alt="" />
-                            </figure>
-                        </div>            
-                        <div className="client-author-content">
-                            <h3>kabir singh</h3>
-                            <p>restaurant manager</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div className="col-lg-4 col-md-6">
-                    
-                    <div className="testimonial-box-item wow fadeInUp" data-wow-delay="0.6s">	
-                        <div className="testimonial-rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                        </div>
-                        <div className="testimonial-box-content">
-                            <p>If you want to experience real flavors, this place is absolutely perfect. Their Corn Tostada and Zesty Rolls truly won our hearts.</p>
-                        </div>
-                        <div className="client-author-image">
-                            <figure className="image-anime">
-                                <img src="/images/client-4.jpg" alt="" />
-                            </figure>
-                        </div>            
-                        <div className="client-author-content">
-                            <h3>neha verma</h3>
-                            <p>head chef</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div className="col-lg-4 col-md-6">
-                    
-                    <div className="testimonial-box-item wow fadeInUp" data-wow-delay="0.8s">	
-                        <div className="testimonial-rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                        </div>
-                        <div className="testimonial-box-content">
-                            <p>This was one of my best dining experiences ever. Their Purple Corn Tostada and delectable desserts truly made our evening unforgettable.</p>
-                        </div>
-                        <div className="client-author-image">
-                            <figure className="image-anime">
-                                <img src="/images/client-5.jpg" alt="" />
-                            </figure>
-                        </div>            
-                        <div className="client-author-content">
-                            <h3>rohit mishra</h3>
-                            <p>restaurant manager</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div className="col-lg-4 col-md-6">
-                    
-                    <div className="testimonial-box-item wow fadeInUp" data-wow-delay="1s">	
-                        <div className="testimonial-rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                        </div>
-                        <div className="testimonial-box-content">
-                            <p>The food at Golden Spoon Restaurant is truly extraordinary, with every dish showcasing exceptional attention to detail, flavor, and creativity.</p>
-                        </div>
-                        <div className="client-author-image">
-                            <figure className="image-anime">
-                                <img src="/images/client-6.jpg" alt="" />
-                            </figure>
-                        </div>            
-                        <div className="client-author-content">
-                            <h3>aisha verma</h3>
-                            <p>head chef</p>
-                        </div>
-                    </div>
-                    
-                </div>
+                ))}
             </div>
         </div>
     </div>

@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    const logoSrc = '/images/golden-spoon-logo.png';
+
     return (
         <footer className="main-footer">
             <div className="container">
@@ -11,7 +13,13 @@ const Footer = () => {
                         <div className="footer-content">
                             {/* Footer Logo Start */}
                             <div className="footer-logo">
-                                <img src="/images/logo2.png" alt="Golden Spoon Restaurant" />
+                                <img
+                                    className="site-logo site-logo--footer"
+                                    src={logoSrc}
+                                    alt="Golden Spoon Restaurant logo"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
                             </div>
                             {/* Footer Logo End */}
 
@@ -42,7 +50,7 @@ const Footer = () => {
                                 {/* Timing Item Start */}
                                 <div className="footer-contact-item">
                                     <div className="icon-box">
-                                        <i className="fa-regular fa-clock" style={{color: '#C1B696', fontSize: '20px'}}></i>
+                                        <i className="fa-regular fa-clock" style={{color: 'var(--accent-color)', fontSize: '20px'}}></i>
                                     </div>
                                     <div className="footer-contact-content">
                                         <p>11:00am to 7:00pm</p>

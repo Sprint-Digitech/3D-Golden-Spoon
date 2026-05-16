@@ -1,6 +1,7 @@
 ﻿
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { googleReviews } from '../data/googleReviews';
 
 const Home = () => {
     useEffect(() => {
@@ -724,51 +725,29 @@ const Home = () => {
                     <div className="testimonial-slider">
                         <div className="swiper">
                             <div className="swiper-wrapper" data-cursor-text="Drag">
-                                
-                                <div className="swiper-slide">
-                                    <div className="testimonial-item">
-                                        <div className="testimonial-quote">
-                                            <img src="/images/testimonial-quote.svg" alt="" />
-                                        </div>
-                                        <div className="testimonial-content">
-                                            <p>From the moment we walked in, the ambiance was welcoming, and the service was top-notch. The dish was absolutely delicious, full of fresh flavors, and perfectly cooked. I especially loved how the staff took the time to explain the menu and suggest pairings for our meal.</p>
-                                        </div>
-                                        <div className="author-info">
-                                            <div className="author-image">
-                                                <figure className="image-anime">
-                                                    <img src="/images/author-1.jpg" alt="" />
-                                                </figure>
-                                             </div>            
-                                            <div className="author-content">
-                                                <h3>wade l warren, developer</h3>
+                                {googleReviews.map((review) => (
+                                    <div className="swiper-slide" key={review.name}>
+                                        <div className="testimonial-item">
+                                            <div className="testimonial-quote">
+                                                <img src="/images/testimonial-quote.svg" alt="" />
+                                            </div>
+                                            <div className="testimonial-content">
+                                                <p>{review.summary}</p>
+                                            </div>
+                                            <div className="author-info">
+                                                <div className="author-image">
+                                                    <figure className="image-anime">
+                                                        <img src={review.avatar} alt={`${review.name} review avatar`} />
+                                                    </figure>
+                                                 </div>            
+                                                <div className="author-content">
+                                                    <h3>{review.name}</h3>
+                                                    <p>{review.meta}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                
-
-                                
-                                <div className="swiper-slide">
-                                    <div className="testimonial-item">
-                                        <div className="testimonial-quote">
-                                            <img src="/images/testimonial-quote.svg" alt="" />
-                                        </div>
-                                        <div className="testimonial-content">
-                                            <p>From the moment we walked in, the ambiance was welcoming, and the service was top-notch. The dish was absolutely delicious, full of fresh flavors, and perfectly cooked. I especially loved how the staff took the time to explain the menu and suggest pairings for our meal.</p>
-                                        </div>
-                                        <div className="author-info">
-                                            <div className="author-image">
-                                                <figure className="image-anime">
-                                                    <img src="/images/author-2.jpg" alt="" />
-                                                </figure>
-                                            </div>            
-                                            <div className="author-content">
-                                                <h3>liya allen, manager</h3>
-                                            </div>
-                                        </div>                                    
-                                    </div>
-                                </div>
-                                
+                                ))}
                             </div>
                             <div className="testimonial-btn">
                                 <div className="testimonial-btn-prev"></div>
