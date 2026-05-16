@@ -1,6 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { googleReviews } from '../data/googleReviews';
 
 const IndexVideo = () => {
     useEffect(() => {
@@ -34,9 +35,9 @@ const IndexVideo = () => {
                     <div className="hero-content">
                         
                         <div className="section-title">
-                            <h3 className="wow fadeInUp">art of fine dining</h3>
-                            <h1 className="text-anime-style-2" data-cursor="-opaque">Dining redefined with <span>every bite</span></h1>
-                            <p className="wow fadeInUp" data-wow-delay="0.2s">Immerse yourself in a dining experience like no other, where every dish is a masterpiece of flavor, crafted with care and precision. From the freshest ingredients.</p>
+                            <h3 className="wow fadeInUp">golden spoon restaurant, noida</h3>
+                            <h1 className="text-anime-style-2" data-cursor="-opaque">Dining in Noida, <span>made memorable</span></h1>
+                            <p className="wow fadeInUp" data-wow-delay="0.2s">At Golden Spoon Restaurant, Noida, every meal is prepared with care, served with warmth, and designed to leave a lasting impression. From everyday cravings to special occasions, we make dining feel easy, flavorful, and inviting.</p>
                         </div>
                         
 
@@ -1416,51 +1417,29 @@ const IndexVideo = () => {
                     <div className="testimonial-slider">
                         <div className="swiper">
                             <div className="swiper-wrapper" data-cursor-text="Drag">
-                                
-                                <div className="swiper-slide">
-                                    <div className="testimonial-item">
-                                        <div className="testimonial-quote">
-                                            <img src="/images/testimonial-quote.svg" alt="" />
-                                        </div>
-                                        <div className="testimonial-content">
-                                            <p>From the moment we walked in, the ambiance was welcoming, and the service was top-notch. The dish was absolutely delicious, full of fresh flavors, and perfectly cooked. I especially loved how the staff took the time to explain the menu and suggest pairings for our meal.</p>
-                                        </div>
-                                        <div className="author-info">
-                                            <div className="author-image">
-                                                <figure className="image-anime">
-                                                    <img src="/images/author-1.jpg" alt="" />
-                                                </figure>
-                                             </div>            
-                                            <div className="author-content">
-                                                <h3>wade l warren, developer</h3>
+                                {googleReviews.map((review) => (
+                                    <div className="swiper-slide" key={review.name}>
+                                        <div className="testimonial-item">
+                                            <div className="testimonial-quote">
+                                                <img src="/images/testimonial-quote.svg" alt="" />
+                                            </div>
+                                            <div className="testimonial-content">
+                                                <p>{review.summary}</p>
+                                            </div>
+                                            <div className="author-info">
+                                                <div className="author-image">
+                                                    <figure className="image-anime">
+                                                        <img src={review.avatar} alt={`${review.name} review avatar`} />
+                                                    </figure>
+                                                 </div>
+                                                <div className="author-content">
+                                                    <h3>{review.name}</h3>
+                                                    <p>{review.meta}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                
-
-                                
-                                <div className="swiper-slide">
-                                    <div className="testimonial-item">
-                                        <div className="testimonial-quote">
-                                            <img src="/images/testimonial-quote.svg" alt="" />
-                                        </div>
-                                        <div className="testimonial-content">
-                                            <p>From the moment we walked in, the ambiance was welcoming, and the service was top-notch. The dish was absolutely delicious, full of fresh flavors, and perfectly cooked. I especially loved how the staff took the time to explain the menu and suggest pairings for our meal.</p>
-                                        </div>
-                                        <div className="author-info">
-                                            <div className="author-image">
-                                                <figure className="image-anime">
-                                                    <img src="/images/author-2.jpg" alt="" />
-                                                </figure>
-                                            </div>            
-                                            <div className="author-content">
-                                                <h3>liya allen, manager</h3>
-                                            </div>
-                                        </div>                                    
-                                    </div>
-                                </div>
-                                
+                                ))}
                             </div>
                             <div className="testimonial-btn">
                                 <div className="testimonial-btn-prev"></div>
@@ -1570,7 +1549,7 @@ const IndexVideo = () => {
                         
                         <div className="section-title">
                             <h3 className="wow fadeInUp">reserve a table</h3>
-                            <h2 className="text-anime-style-2" data-cursor="-opaque">reserve now your table and <span>enjoy dining experience.</span></h2>
+                            <h2 className="text-anime-style-2" data-cursor="-opaque">reserve your table and <span>enjoy a relaxed dining experience.</span></h2>
                         </div>
                         
 
@@ -1578,9 +1557,7 @@ const IndexVideo = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Monday - Friday <span>11:00 AM - 07:00 PM</span></li>
                             </ul>
                         </div>
                         
