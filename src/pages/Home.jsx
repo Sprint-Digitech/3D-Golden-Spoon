@@ -1,4 +1,4 @@
-﻿
+
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { googleReviews } from '../data/googleReviews';
@@ -97,7 +97,7 @@ const Home = () => {
                         
                         <div className="hero-image">
                             <figure className="image-anime">
-                                <img src="/images/hero-img.jpg" alt="" />
+                                <img src="/images/Home side.png" alt="Golden Spoon Restaurant interior" />
                             </figure>                            
                         </div>  
                             
@@ -135,7 +135,7 @@ const Home = () => {
                         
                         <div className="about-us-img">
                             <figure className="image-anime">
-                                <img src="/images/about-us-image.jpg" alt="" />
+                                <img src="/images/anual.png" alt="Golden Spoon Restaurant annual party area" />
                             </figure>
                         </div>
                         

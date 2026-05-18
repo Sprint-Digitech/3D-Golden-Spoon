@@ -44,7 +44,7 @@ const About = () => {
                         
                         <div className="about-us-img">
                             <figure className="image-anime">
-                                <img src="/images/about-us-image.jpg" alt="" />
+                                <img src="/images/anual.png" alt="" />
                             </figure>
                         </div>
                         

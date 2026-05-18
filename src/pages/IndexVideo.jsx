@@ -57,7 +57,7 @@ const IndexVideo = () => {
                         
                         <div className="hero-image">
                             <figure className="image-anime">
-                                <img src="/images/hero-img.jpg" alt="" />
+                                <img src="/images/Home side.png" alt="" />
                             </figure>                            
                         </div>  
                             
@@ -95,7 +95,7 @@ const IndexVideo = () => {
                         
                         <div className="about-us-img">
                             <figure className="image-anime">
-                                <img src="/images/about-us-image.jpg" alt="" />
+                                <img src="/images/anual.png" alt="" />
                             </figure>
                         </div>
                         
