@@ -458,8 +458,12 @@ header.main-header {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	border-bottom: 1px solid var(--divider-color);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
 	z-index: 100;
+	background: rgba(255, 255, 255, 0.88) !important;
+	backdrop-filter: blur(14px) !important;
+	-webkit-backdrop-filter: blur(14px) !important;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03) !important;
 }
 
 header.main-header .header-sticky {
@@ -481,8 +485,28 @@ header.main-header .header-sticky.active {
 	right: 0;
 	border-radius: 0;
 	transform: translateY(0);
-	background: var(--dark-divider-color);
-	border-bottom: 1px solid var(--divider-color);
+	background: rgba(255, 255, 255, 0.95) !important;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Force dark text for header nav links on the light white header */
+header.main-header .main-menu ul li a {
+	color: #171311 !important;
+	font-weight: 500 !important;
+}
+
+header.main-header .main-menu ul li a:hover,
+header.main-header .main-menu ul li a:focus {
+	color: var(--accent-color) !important;
+}
+
+header.main-header .main-menu ul li.submenu>a:after {
+	color: #171311 !important;
+}
+
+header.main-header .main-menu ul li.submenu>a:hover:after {
+	color: var(--accent-color) !important;
 }
 
 .navbar {
@@ -848,7 +872,7 @@ html[data-theme='light'] .our-testimonial .testimonial-btn-next:hover::before {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 214px 0 100px;
+	padding: 120px 0 35px;
 	overflow: hidden;
 }
 
@@ -892,7 +916,7 @@ html[data-theme='light'] .our-testimonial .testimonial-btn-next:hover::before {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 214px 0 100px;
+	padding: 120px 0 35px;
 }
 
 .hero.hero-slider-layout .hero-slide.slide-2 {
@@ -934,7 +958,7 @@ html[data-theme='light'] .our-testimonial .testimonial-btn-next:hover::before {
 }
 
 .hero-content .section-title {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .hero-btn {
