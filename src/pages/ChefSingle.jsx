@@ -19,12 +19,12 @@ const ChefSingle = () => {
 				<div className="col-lg-12">
 					
 					<div className="page-header-box">
-						<h1 className="text-anime-style-2" data-cursor="-opaque">Sophia martinez</h1>
+						<h1 className="text-anime-style-2" data-cursor="-opaque">Rakesh</h1>
 						<nav className="wow fadeInUp">
 							<ol className="breadcrumb">
 								<li className="breadcrumb-item"><Link to="/">home</Link></li>
 								<li className="breadcrumb-item"><Link to="/chefs">chefs</Link></li>
-								<li className="breadcrumb-item active" aria-current="page">sophia martinez</li>
+								<li className="breadcrumb-item active" aria-current="page">Rakesh </li>
 							</ol>
 						</nav>
 					</div>
@@ -85,7 +85,7 @@ const ChefSingle = () => {
                             <div className="section-title">
                                 <h3 className="wow fadeInUp">Chef</h3>
                                 <h2 className="text-anime-style-2" data-cursor="-opaque">About <span>me</span></h2>
-                                <p className="wow fadeInUp" data-wow-delay="0.2s">Sophia Martinez is a talented and passionate Chef de Cuisine, known for her innovative approach to modern cuisine. With years of experience in fine dining, she leads the kitchen with creativity and precision. Her expertise in flavor pairing and culinary techniques ensures that every dish not only meets but exceeds the expectations of the restaurant's guests. William's leadership fosters a collaborative and efficient kitchen environment, allowing her team to deliver consistently exceptional dining experiences.</p>
+                                <p className="wow fadeInUp" data-wow-delay="0.2s">Rakesh is a talented and passionate Chef de Cuisine, known for her innovative approach to modern cuisine. With years of experience in fine dining, she leads the kitchen with creativity and precision. Her expertise in flavor pairing and culinary techniques ensures that every dish not only meets but exceeds the expectations of the restaurant's guests. William's leadership fosters a collaborative and efficient kitchen environment, allowing her team to deliver consistently exceptional dining experiences.</p>
                             </div>
                             
 
@@ -107,7 +107,7 @@ const ChefSingle = () => {
                             
                             <div className="section-title">
                                 <h2 className="text-anime-style-2" data-cursor="-opaque">Contact <span>me</span></h2>
-                                <p className="wow fadeInUp">Sophia martinez is a talented and passionate Chef de Cuisine, known for her innovative approach to modern cuisine. With years of experience in fine dining, she leads the kitchen with creativity and precision. Her expertise in flavor pairing and culinary techniques ensures that every dish not only meets but exceeds the expectations of the restaurant's guests. William's leadership fosters a collaborative and efficient kitchen environment, allowing her team to deliver consistently exceptional dining experiences.</p>
+                                <p className="wow fadeInUp">Rakesh is a talented and passionate Chef de Cuisine, known for her innovative approach to modern cuisine. With years of experience in fine dining, she leads the kitchen with creativity and precision. Her expertise in flavor pairing and culinary techniques ensures that every dish not only meets but exceeds the expectations of the restaurant's guests. William's leadership fosters a collaborative and efficient kitchen environment, allowing her team to deliver consistently exceptional dining experiences.</p>
                             </div>
                             
 

@@ -55,7 +55,7 @@ const Chefs = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">sophia martinez</Link></h3>
+                                <h3><Link to="/chef-single">Rakesh</Link></h3>
                                 <p>executive chef</p>
                             </div>
                             
@@ -92,7 +92,7 @@ const Chefs = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">liam patel</Link></h3>
+                                <h3><Link to="/chef-single">Shiva</Link></h3>
                                 <p>sous chef</p>
                             </div>
                             
@@ -129,7 +129,7 @@ const Chefs = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">isabella carter</Link></h3>
+                                <h3><Link to="/chef-single">Vishnu</Link></h3>
                                 <p>pastry chef</p>
                             </div>
                             
@@ -166,7 +166,7 @@ const Chefs = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">ethan johnson</Link></h3>
+                                <h3><Link to="/chef-single">Josheph</Link></h3>
                                 <p>restaurant manager</p>
                             </div>
                             
