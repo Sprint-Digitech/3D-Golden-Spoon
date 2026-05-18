@@ -1410,7 +1410,7 @@ const Index2 = () => {
                                             <img src="/images/testimonial-quote.svg" alt="" />
                                         </div>
                                         <div className="testimonial-content">
-                                            <p>From the moment we walked in, the ambiance was welcoming, and the service was top-notch. The dish was absolutely delicious, full of fresh flavors, and perfectly cooked. I especially loved how the staff took the time to explain the menu and suggest pairings for our meal.</p>
+                                            <p>The taste of the food is very good and the staff of the restaurant is also very good natured and the best thing is that the restaurant is pure vegetarian.</p>
                                         </div>
                                         <div className="author-info">
                                             <div className="author-image">
@@ -1419,8 +1419,8 @@ const Index2 = () => {
                                                 </figure>
                                              </div>            
                                             <div className="author-content">
-                                                <h3>wade l warren, developer</h3>
-                                            </div>
+                                                <h3></h3>
+                                            </div>Deshdeepak Patel
                                         </div>
                                     </div>
                                 </div>
@@ -1565,9 +1565,7 @@ const Index2 = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Mon - Sat <span>11:00 AM - 07:00 PM</span></li>
                             </ul>
                         </div>
                         
