@@ -85,9 +85,8 @@ const Testimonial = () => {
                         <div className="reserve-table-body">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Mon - Sat <span>11:00 AM - 07:00 PM</span></li>
+                              
                             </ul>
                         </div>
                         

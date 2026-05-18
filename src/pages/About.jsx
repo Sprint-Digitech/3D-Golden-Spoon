@@ -707,7 +707,7 @@ I recommended this place to everyone for your craving</p>
                             </h2>
                             <div id="collapse1" className="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>We're open daily from 11:00 AM to 07:00 PM.</p>
                                 </div>
                             </div>
                         </div>
@@ -722,7 +722,7 @@ I recommended this place to everyone for your craving</p>
                             </h2>
                             <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Yes, we offer vegetarian-only options.</p>
                                 </div>
                             </div>
                         </div>
@@ -737,7 +737,7 @@ I recommended this place to everyone for your craving</p>
                             </h2>
                             <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Yes, you can reserve online or contact us directly.</p>
                                 </div>
                             </div>
                         </div>
@@ -752,7 +752,7 @@ I recommended this place to everyone for your craving</p>
                             </h2>
                             <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Yes, we offer both delivery and takeout services.</p>
                                 </div>
                             </div>
                         </div>
@@ -767,7 +767,7 @@ I recommended this place to everyone for your craving</p>
                             </h2>
                             <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Yes, we accommodate large groups.</p>
                                 </div>
                             </div>
                         </div>
@@ -782,7 +782,7 @@ I recommended this place to everyone for your craving</p>
                             </h2>
                             <div id="collapse6" className="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Yes, parking is available at the restaurant.</p>
                                 </div>
                             </div>
                         </div>
@@ -797,7 +797,7 @@ I recommended this place to everyone for your craving</p>
                             </h2>
                             <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordion">
                                 <div className="accordion-body">
-                                    <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                    <p>Yes, a kids' menu is available.</p>
                                 </div>
                             </div>
                         </div>

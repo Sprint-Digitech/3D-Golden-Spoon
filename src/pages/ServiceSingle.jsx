@@ -73,7 +73,7 @@ const ServiceSingle = () => {
 
                             
                             <div className="cta-contact-btn">
-                                <a href="tel:123456789" className="btn-default btn-highlighted"><img src="/images/icon-sidebar-cta-phone.svg" alt="" /> +123 456 789</a>
+                                <a href="tel:9217014763" className="btn-default btn-highlighted"><img src="/images/icon-sidebar-cta-phone.svg" alt="" /> +9217014763</a>
                             </div>
                             
                         </div>
@@ -146,7 +146,7 @@ const ServiceSingle = () => {
                                     </h2>
                                     <div id="collapse1" className="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                            <p>We're open daily from 11:00 AM to 07:00 PM.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -161,7 +161,7 @@ const ServiceSingle = () => {
                                     </h2>
                                     <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                            <p>Yes, we offer vegetarian-only options.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@ const ServiceSingle = () => {
                                     </h2>
                                     <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                            <p>Yes, you can reserve online or contact us directly.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@ const ServiceSingle = () => {
                                     </h2>
                                     <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                            <p>Yes, we offer both delivery and takeout services.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -206,7 +206,7 @@ const ServiceSingle = () => {
                                     </h2>
                                     <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>Our restaurant is open daily from 11:00 AM to 07:00 PM, ensuring you can enjoy delicious meals at your convenience. For special events or holiday hours, please check our website or contact us directly.</p>
+                                            <p>Yes, we accommodate large groups.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -241,9 +241,8 @@ const ServiceSingle = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Mon - S <span>11:00 AM - 07:00 PM</span></li>
+                                
                             </ul>
                         </div>
                         
@@ -270,7 +269,7 @@ const ServiceSingle = () => {
                                 
                                 <div className="form-group col-md-6 mb-4">
                                     <label className="form-label">phone number</label>
-                                    <input type="text" name="phone" className="form-control" id="phone" placeholder="e.g. + 123 456 8792" required />
+                                    <input type="text" name="phone" className="form-control" id="phone" placeholder="e.g. +9217014763" required />
                                     <div className="help-block with-errors"></div>
                                 </div>
 

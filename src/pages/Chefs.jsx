@@ -56,7 +56,7 @@ const Chefs = () => {
                             
                             <div className="team-content">
                                 <h3><Link to="/chef-single">Rakesh</Link></h3>
-                                <p>executive chef</p>
+                                <p></p>
                             </div>
                             
 
@@ -93,7 +93,7 @@ const Chefs = () => {
                             
                             <div className="team-content">
                                 <h3><Link to="/chef-single">Shiva</Link></h3>
-                                <p>sous chef</p>
+                                <p></p>
                             </div>
                             
 
@@ -130,7 +130,7 @@ const Chefs = () => {
                             
                             <div className="team-content">
                                 <h3><Link to="/chef-single">Vishnu</Link></h3>
-                                <p>pastry chef</p>
+                                <p></p>
                             </div>
                             
 
@@ -188,43 +188,6 @@ const Chefs = () => {
 
                 <div className="col-lg-3 col-md-6">
                     
-                    <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
-                        
-                        <div className="team-image">
-                            <Link to="/chef-single" data-cursor-text="View">
-                                <figure className="image-anime">
-                                    <img src="/images/team-5.jpg" alt="" />
-                                </figure>
-                            </Link>
-                        </div>
-                        
-                
-                        
-                        <div className="team-body">
-                            
-                            <div className="team-content">
-                                <h3><Link to="/chef-single">oliver bennett</Link></h3>
-                                <p>executive chef</p>
-                            </div>
-                            
-
-                            
-                            <div className="team-social-list">
-                                <ul>
-                                    <li><a href="#"><i className="fa-brands fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-
-                <div className="col-lg-3 col-md-6">
-                    
                     <div className="team-item wow fadeInUp" data-wow-delay="1s">
                         
                         <div className="team-image">
@@ -240,45 +203,8 @@ const Chefs = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">james anderson</Link></h3>
-                                <p>operations manager</p>
-                            </div>
-                            
-
-                            
-                            <div className="team-social-list">
-                                <ul>
-                                    <li><a href="#"><i className="fa-brands fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-
-                <div className="col-lg-3 col-md-6">
-                    
-                    <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
-                        
-                        <div className="team-image">
-                            <Link to="/chef-single" data-cursor-text="View">
-                                <figure className="image-anime">
-                                    <img src="/images/team-7.jpg" alt="" />
-                                </figure>
-                            </Link>
-                        </div>
-                        
-                
-                        
-                        <div className="team-body">
-                            
-                            <div className="team-content">
-                                <h3><Link to="/chef-single">ava martinez</Link></h3>
-                                <p>culinary artist</p>
+                                <h3><Link to="/chef-single">Karan</Link></h3>
+                                <p></p>
                             </div>
                             
 
@@ -314,7 +240,7 @@ const Chefs = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">liam robinson</Link></h3>
+                                <h3><Link to="/chef-single">Pushpendra</Link></h3>
                                 <p>marketing strategist</p>
                             </div>
                             
@@ -356,9 +282,8 @@ const Chefs = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Mon - Sat <span>11:00 AM - 07:00 PM</span></li>
+
                             </ul>
                         </div>
                         

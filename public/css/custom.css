@@ -498,22 +498,22 @@ header.main-header .header-sticky.active {
 	box-shadow: none !important;
 }
 
-/* Force dark text for header nav links on the light white header */
-header.main-header .main-menu ul li a {
+/* Force dark text only for the top-level header nav links on the light white header */
+header.main-header .main-menu .nav-menu-wrapper > ul > li > a {
 	color: #171311 !important;
 	font-weight: 500 !important;
 }
 
-header.main-header .main-menu ul li a:hover,
-header.main-header .main-menu ul li a:focus {
+header.main-header .main-menu .nav-menu-wrapper > ul > li > a:hover,
+header.main-header .main-menu .nav-menu-wrapper > ul > li > a:focus {
 	color: var(--accent-color) !important;
 }
 
-header.main-header .main-menu ul li.submenu>a:after {
+header.main-header .main-menu .nav-menu-wrapper > ul > li.submenu > a:after {
 	color: #171311 !important;
 }
 
-header.main-header .main-menu ul li.submenu>a:hover:after {
+header.main-header .main-menu .nav-menu-wrapper > ul > li.submenu > a:hover:after {
 	color: var(--accent-color) !important;
 }
 
@@ -742,6 +742,21 @@ html[data-theme='light'] .our-testimonial .testimonial-btn-next {
 
 html[data-theme='light'] .our-testimonial .testimonial-btn-prev:hover::before,
 html[data-theme='light'] .our-testimonial .testimonial-btn-next:hover::before {
+	color: #0E110D;
+}
+
+html[data-theme='light'] .team-content h3,
+html[data-theme='light'] .team-content h3 a,
+html[data-theme='light'] .team-content p,
+html[data-theme='light'] .team-social-list ul li a {
+	color: #FFFFFF;
+}
+
+html[data-theme='light'] .team-social-list ul li a {
+	border-color: rgba(255, 255, 255, 0.85);
+}
+
+html[data-theme='light'] .team-item:hover .team-social-list ul li:hover a {
 	color: #0E110D;
 }
 

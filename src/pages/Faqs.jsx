@@ -69,7 +69,7 @@ const Faqs = () => {
 
                             
                             <div className="cta-contact-btn">
-                                <a href="tel:123456789" className="btn-default btn-highlighted"><img src="/images/icon-sidebar-cta-phone.svg" alt="" /> +123 456 789</a>
+                                <a href="tel:9217014763" className="btn-default btn-highlighted"><img src="/images/icon-sidebar-cta-phone.svg" alt="" /> +9217014763</a>
                             </div>
                             
                         </div>
@@ -451,9 +451,8 @@ const Faqs = () => {
                         <div className="reserve-table-body wow fadeInUp" data-wow-delay="0.2s">
                             <h3>open hours</h3>
                             <ul>
-                                <li>Mon - Thu <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Fri - Sat <span>11:00 AM - 07:00 PM</span></li>
-                                <li>Sun <span>11:00 AM - 07:00 PM</span></li>
+                                <li>Mon - Sat <span>11:00 AM - 07:00 PM</span></li>
+                               
                             </ul>
                         </div>
                         
@@ -480,7 +479,7 @@ const Faqs = () => {
                                 
                                 <div className="form-group col-md-6 mb-4">
                                     <label className="form-label">phone number</label>
-                                    <input type="text" name="phone" className="form-control" id="phone" placeholder="e.g. + 123 456 8792" required />
+                                    <input type="text" name="phone" className="form-control" id="phone" placeholder="e.g. +9217014763" required />
                                     <div className="help-block with-errors"></div>
                                 </div>
 
