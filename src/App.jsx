@@ -32,6 +32,7 @@ function App() {
           <Route path="blog-single" element={<BlogSingle />} />
           <Route path="chefs" element={<Chefs />} />
           <Route path="chef-single" element={<ChefSingle />} />
+          <Route path="chef-single/:chefSlug" element={<ChefSingle />} />
           <Route path="contact" element={<Contact />} />
           <Route path="faqs" element={<Faqs />} />
           <Route path="image-gallery" element={<ImageGallery />} />

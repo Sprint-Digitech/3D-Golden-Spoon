@@ -8,7 +8,14 @@ const Menu = () => {
 
     return (
         <main>
-            <div className="page-header parallaxie">
+            <div
+                className="page-header parallaxie"
+                data-parallaxie={JSON.stringify({ speed: 0.55, offset: 0 })}
+                style={{
+                    backgroundImage: "url('/images/menu-page-hero.png')",
+                    backgroundPosition: 'center top',
+                }}
+            >
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

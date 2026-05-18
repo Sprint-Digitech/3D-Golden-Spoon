@@ -13,24 +13,24 @@ const Contact = () => {
 	
 
     
-	<div className="page-header parallaxie">
-		<div className="container">
-			<div className="row">
-				<div className="col-lg-12">
-					
-					<div className="page-header-box">
-						<h1 className="text-anime-style-2" data-cursor="-opaque">Contact us</h1>
-						<nav className="wow fadeInUp">
-							<ol className="breadcrumb">
-								<li className="breadcrumb-item"><Link to="/">home</Link></li>
-								<li className="breadcrumb-item active" aria-current="page">contact us</li>
-							</ol>
-						</nav>
-					</div>
-					
-				</div>
-			</div>
-		</div>
+	<div className="page-header" style={{ position: 'relative', overflow: 'hidden', backgroundImage: 'none', minHeight: '650px' }}>
+        <video 
+            autoPlay 
+            muted 
+            loop 
+            playsInline 
+            style={{ 
+                position: 'absolute', 
+                top: 0, 
+                left: 0, 
+                width: '100%', 
+                height: '100%', 
+                objectFit: 'cover', 
+                zIndex: -1 
+            }}
+        >
+            <source src="/Gallery/contact us.mp4" type="video/mp4" />
+        </video>
 	</div>
 	
 
@@ -52,7 +52,7 @@ const Contact = () => {
                         
                         <div className="contact-info-list wow fadeInUp" data-wow-delay="0.4s">
                             <ul>
-                                <li>F-111 Sector-8 Noida Top Floor</li>
+                                <li>Golden Spoon Restaurant, 111, F Block, Sector 8, Noida, Uttar Pradesh 201301</li>
                                 <li><a href="tel:9217014763">9217014763</a></li>
                             </ul>
                         </div>
@@ -120,7 +120,7 @@ const Contact = () => {
                 <div className="col-lg-12">
                     
                     <div className="google-map-iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.461937922718!2d77.3197669!3d28.5859187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce50700000001%3A0x4000000000000000!2sF-111%2C%20Sector%208%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1715760000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps?q=Golden%20Spoon%20Restaurant%2C%20111%2C%20F%20Block%2C%20Sector%208%2C%20Noida%2C%20Uttar%20Pradesh%20201301&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     
                 </div>

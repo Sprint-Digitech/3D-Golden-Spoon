@@ -117,7 +117,7 @@ const Header = () => {
                                     <li className="nav-item submenu"><Link className="nav-link" to="#">Pages</Link>
                                         <ul>
                                             <li className="nav-item"><Link className="nav-link" to="/chefs">Our Chefs</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to="/chef-single">Chef Single</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to="/chef-single/rakesh">Chef Single</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to="/blog-single">Blog Single</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to="/faqs">FAQs</Link></li>

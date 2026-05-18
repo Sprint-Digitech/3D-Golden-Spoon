@@ -435,7 +435,7 @@ const About = () => {
                     <div className="team-item wow fadeInUp">
                         
                         <div className="team-image">
-                            <Link to="/chef-single" data-cursor-text="View">
+                            <Link to="/chef-single/rakesh" data-cursor-text="View">
                                 <figure className="image-anime">
                                     <img src="/images/team-1.jpg" alt="" />
                                 </figure>
@@ -447,7 +447,7 @@ const About = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">Rakesh</Link></h3>
+                                <h3><Link to="/chef-single/rakesh">Rakesh</Link></h3>
                                 <p>executive chef</p>
                             </div>
                             
@@ -472,7 +472,7 @@ const About = () => {
                     <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
                         
                         <div className="team-image">
-                            <Link to="/chef-single" data-cursor-text="View">
+                            <Link to="/chef-single/shiva" data-cursor-text="View">
                                 <figure className="image-anime">
                                     <img src="/images/team-2.jpg" alt="" />
                                 </figure>
@@ -484,7 +484,7 @@ const About = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">Shiva</Link></h3>
+                                <h3><Link to="/chef-single/shiva">Shiva</Link></h3>
                                 <p>sous chef</p>
                             </div>
                             
@@ -509,7 +509,7 @@ const About = () => {
                     <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
                         
                         <div className="team-image">
-                            <Link to="/chef-single" data-cursor-text="View">
+                            <Link to="/chef-single/vishnu" data-cursor-text="View">
                                 <figure className="image-anime">
                                     <img src="/images/team-3.jpg" alt="" />
                                 </figure>
@@ -521,7 +521,7 @@ const About = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">Vishnu</Link></h3>
+                                <h3><Link to="/chef-single/vishnu">Vishnu</Link></h3>
                                 <p>pastry chef</p>
                             </div>
                             
@@ -546,7 +546,7 @@ const About = () => {
                     <div className="team-item wow fadeInUp" data-wow-delay="0.6s">
                         
                         <div className="team-image">
-                            <Link to="/chef-single" data-cursor-text="View">
+                            <Link to="/chef-single/josheph" data-cursor-text="View">
                                 <figure className="image-anime">
                                     <img src="/images/team-4.jpg" alt="" />
                                 </figure>
@@ -558,7 +558,7 @@ const About = () => {
                         <div className="team-body">
                             
                             <div className="team-content">
-                                <h3><Link to="/chef-single">Josheph</Link></h3>
+                                <h3><Link to="/chef-single/josheph">Josheph</Link></h3>
                                 <p>restaurant manager</p>
                             </div>
                             
