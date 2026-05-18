@@ -8,28 +8,29 @@ const Menu = () => {
 
     return (
         <main>
-            <div
-                className="page-header parallaxie"
-                data-parallaxie={JSON.stringify({ speed: 0.55, offset: 0 })}
-                style={{
-                    backgroundImage: "url('/images/menu-page-hero.png')",
-                    backgroundPosition: 'center top',
-                }}
-            >
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="page-header-box">
-                                <h1 className="text-anime-style-2" data-cursor="-opaque">our menu</h1>
-                                <nav className="wow fadeInUp">
-                                    <ol className="breadcrumb">
-                                        <li className="breadcrumb-item"><Link to="/">home</Link></li>
-                                        <li className="breadcrumb-item active" aria-current="page">menu</li>
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
+            <div className="page-header" style={{ position: 'relative', overflow: 'hidden', backgroundImage: 'none', minHeight: '650px' }}>
+                <video 
+                    autoPlay 
+                    muted 
+                    loop 
+                    playsInline 
+                    style={{ 
+                        position: 'absolute', 
+                        top: 0, 
+                        left: 0, 
+                        width: '100%', 
+                        height: '100%', 
+                        objectFit: 'cover', 
+                        zIndex: -1 
+                    }}
+                >
+                    <source src="/Gallery/Video Project1.mp4" type="video/mp4" />
+                </video>
+                
+                {/* Scroll Down Indicator */}
+                <div className="scroll-down-indicator" onClick={() => window.scrollTo({ top: 650, behavior: 'smooth' })}>
+                    <div className="mouse"></div>
+                    <p>Scroll Down</p>
                 </div>
             </div>
 
