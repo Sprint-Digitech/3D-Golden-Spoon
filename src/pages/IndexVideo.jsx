@@ -57,7 +57,7 @@ const IndexVideo = () => {
                         
                         <div className="hero-image">
                             <figure className="image-anime">
-                                <img src="/images/Home side.png" alt="" />
+                                <img src="/images/anual.png" alt="" />
                             </figure>                            
                         </div>  
                             
@@ -95,7 +95,7 @@ const IndexVideo = () => {
                         
                         <div className="about-us-img">
                             <figure className="image-anime">
-                                <img src="/images/anual.png" alt="" />
+                                <img src="/images/Home side.png" alt="" />
                             </figure>
                         </div>
                         
@@ -1199,7 +1199,7 @@ const IndexVideo = () => {
                         <div className="intro-bg-video">
                             
                             
-                            <video autoPlay muted={true} loop={true} id="myVideo"><source src="https://demo.awaikenthemes.com/assets/videos/spicyhunt-intro-bg-video.mp4" type="video/mp4" /></video>
+                            <video autoPlay muted={true} loop={true} id="myVideo"><source src="/Gallery/video2.mp4" type="video/mp4" /></video>
                             
 
                             
@@ -1208,7 +1208,7 @@ const IndexVideo = () => {
                         </div>
                         
                         <div className="video-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" className="popup-video" data-cursor-text="Play">play</a>
+                            <a href="/Gallery/video2.mp4" className="popup-video" data-cursor-text="Play">play</a>
                         </div>
                         
                     </div>

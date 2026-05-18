@@ -135,6 +135,17 @@ const Header = () => {
                         </div>
                         {/* Main Menu End */}
                         <div className="header-controls">
+                            {/* Header Social Icons Start */}
+                            <div className="header-social-links">
+                                <a href="#" target="_blank" rel="noopener noreferrer" className="header-social-link" aria-label="Facebook">
+                                    <i className="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/golden_spoon_restaurrant?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="header-social-link" aria-label="Instagram">
+                                    <i className="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                            {/* Header Social Icons End */}
+
                             {/* Header Contact Box Start */}
                             <div className="header-btn">
                                 <Link to="/contact" className="btn-default">book a table</Link>

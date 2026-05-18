@@ -75,9 +75,9 @@ const Home = () => {
                     <div className="hero-content">
                         
                         <div className="section-title">
-                            <h3 className="wow fadeInUp">art of fine dining</h3>
-                            <h1 className="text-anime-style-2" data-cursor="-opaque">Dining redefined with <span>every bite</span></h1>
-                            <p className="wow fadeInUp" data-wow-delay="0.2s">Immerse yourself in a dining experience like no other, where every dish is a masterpiece of flavor, crafted with care and precision. From the freshest ingredients.</p>
+                            <h3 className="wow fadeInUp">golden spoon restaurant, noida</h3>
+                            <h1 className="text-anime-style-2" data-cursor="-opaque">Dining in Noida, <span>made memorable</span></h1>
+                            <p className="wow fadeInUp" data-wow-delay="0.2s">At Golden Spoon Restaurant, Noida, every meal is prepared with care, served with warmth, and designed to leave a lasting impression. From everyday cravings to special occasions, we make dining feel easy, flavorful, and inviting.</p>
                         </div>
                         
 
@@ -97,7 +97,7 @@ const Home = () => {
                         
                         <div className="hero-image">
                             <figure className="image-anime">
-                                <img src="/images/Home side.png" alt="Golden Spoon Restaurant interior" />
+                                <img src="/images/anual.png" alt="Golden Spoon Restaurant interior" />
                             </figure>                            
                         </div>  
                             
@@ -135,7 +135,7 @@ const Home = () => {
                         
                         <div className="about-us-img">
                             <figure className="image-anime">
-                                <img src="/images/anual.png" alt="Golden Spoon Restaurant annual party area" />
+                                <img src="/images/Home side.png" alt="Golden Spoon Restaurant annual party area" />
                             </figure>
                         </div>
                         
@@ -507,16 +507,16 @@ const Home = () => {
                         <div className="intro-bg-video">
                             
                             
-                            <video autoPlay muted={true} loop={true} id="myVideo"><source src="https://demo.awaikenthemes.com/assets/videos/spicyhunt-intro-bg-video.mp4" type="video/mp4" /></video>
+                            <video autoPlay muted={true} loop={true} id="myVideo"><source src="/Gallery/video2.mp4" type="video/mp4" /></video>
                             
-
+ 
                             
                             
                             
                         </div>
                         
                         <div className="video-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" className="popup-video" data-cursor-text="Play">play</a>
+                            <a href="/Gallery/video2.mp4" className="popup-video" data-cursor-text="Play">play</a>
                         </div>
                         
                     </div>

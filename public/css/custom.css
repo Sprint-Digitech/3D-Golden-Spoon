@@ -228,7 +228,11 @@ body {
 }
 
 html[data-theme='light'] .btn-default:hover {
-	color: var(--primary-color);
+	color: #FFFFFF !important;
+}
+
+html[data-theme='light'] .btn-default:hover:after {
+	filter: none !important;
 }
 
 .btn-default::before {
@@ -455,15 +459,21 @@ html[data-theme='light'] .btn-default:hover {
 /************************************/
 
 header.main-header {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
-	z-index: 100;
+	position: fixed !important;
+	top: 20px !important;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+	width: 92% !important;
+	max-width: 1320px !important;
+	border: 1px solid rgba(0, 0, 0, 0.08) !important;
+	border-radius: 999px !important;
+	z-index: 1000 !important;
 	background: rgba(255, 255, 255, 0.88) !important;
 	backdrop-filter: blur(14px) !important;
 	-webkit-backdrop-filter: blur(14px) !important;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03) !important;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+	transition: all 0.3s ease-in-out !important;
+	padding: 0 20px !important;
 }
 
 header.main-header .header-sticky {
@@ -473,21 +483,19 @@ header.main-header .header-sticky {
 }
 
 header.main-header .header-sticky.hide {
-	transform: translateY(-100%);
-	transition: transform 0.3s ease-in-out;
-	border-radius: 0;
+	transform: none !important;
 }
 
 header.main-header .header-sticky.active {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	border-radius: 0;
-	transform: translateY(0);
-	background: rgba(255, 255, 255, 0.95) !important;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05) !important;
+	position: relative !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	border-radius: 0 !important;
+	transform: none !important;
+	background: transparent !important;
+	border-bottom: none !important;
+	box-shadow: none !important;
 }
 
 /* Force dark text for header nav links on the light white header */
@@ -510,8 +518,40 @@ header.main-header .main-menu ul li.submenu>a:hover:after {
 }
 
 .navbar {
-	padding: 16px 0;
+	padding: 6px 0 !important;
 	align-items: center;
+}
+
+.header-social-links {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+.header-social-link {
+	width: 44px !important;
+	height: 44px !important;
+	border-radius: 50% !important;
+	border: 1px solid var(--accent-color) !important;
+	background: var(--accent-color) !important;
+	color: #0E110D !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	flex-shrink: 0 !important;
+	transition: all 0.3s ease-in-out !important;
+	padding: 0 !important;
+	font-size: 18px !important;
+}
+
+.header-social-link:hover {
+	background: var(--accent-color) !important;
+	border-color: var(--accent-color) !important;
+	color: #0E110D !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 4px 10px rgba(225, 153, 56, 0.3) !important;
 }
 
 .navbar-brand {
@@ -1010,7 +1050,7 @@ html[data-theme='light'] .our-testimonial .testimonial-btn-next:hover::before {
 	bottom: 0;
 	left: 0;
 	background: var(--secondary-color);
-	opacity: 20%;
+	opacity: 0% !important;
 	border-radius: 999px;
 	z-index: 0;
 }
@@ -1120,7 +1160,7 @@ html[data-theme='light'] .our-testimonial .testimonial-btn-next:hover::before {
 	left: 0;
 	background: var(--secondary-color);
 	border-radius: 999px;
-	opacity: 20%;
+	opacity: 0% !important;
 	z-index: 0;
 }
 
