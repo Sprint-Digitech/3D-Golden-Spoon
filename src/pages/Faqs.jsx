@@ -97,7 +97,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse1" className="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>We are open Monday to Saturday from 11:00 AM to 07:00 PM. We are closed on Sundays.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>Yes, we offer both takeout and direct delivery services! You can call us at +91 9217014763 to place your order.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>Reservations are recommended, especially during busy hours or for larger groups, though walk-ins are always welcome.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>Yes, we have free parking available for our customers right in front of the restaurant premises.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
                                         <div className="accordion-body">
-                                            <p>We are open daily from 11:00 AM to 07:00 PM. Join us for lunch, dinner, or anything in between!</p>
+                                            <p>Yes, we accommodate various dietary requirements, including gluten-free, vegan, and nut allergies. Please inform our servers before ordering.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -170,7 +170,7 @@ const Faqs = () => {
                         
                         <div className="faq-accordion page-faq-accordion" id="services_and-offerings">
                             <div className="section-title">
-                                <h2 className="text-anime-style-2" data-cursor="-opaque">geneservices and <span>offerings</span></h2>
+                                <h2 className="text-anime-style-2" data-cursor="-opaque">services and <span>offerings</span></h2>
                             </div>
                             
                             <div className="faq-accordion" id="accordion1">
@@ -183,7 +183,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse6" className="accordion-collapse collapse show" aria-labelledby="heading6" data-bs-parent="#accordion1">
                                         <div className="accordion-body">
-                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                            <p>We specialize in premium Indian and multi-cuisine dishes prepared with the freshest ingredients by our expert chefs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordion1">
                                         <div className="accordion-body">
-                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                            <p>Yes! We offer catering for private parties, corporate events, and family gatherings. Reach out to us for customized menu options.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -213,7 +213,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordion1">
                                         <div className="accordion-body">
-                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                            <p>Absolutely. You can request spice level adjustments, remove specific ingredients, or customize dishes to your liking.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordion1">
                                         <div className="accordion-body">
-                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                            <p>Yes, we offer special weekday lunch deals and discounts for loyal members. Follow our website or contact us to check the latest active promotions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -243,12 +243,11 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordion1">
                                         <div className="accordion-body">
-                                            <p>We specialize in a variety of dishes, including international flavors with a focus on fresh, locally sourced ingredients. </p>
+                                            <p>Yes, we have a dedicated kid's menu featuring milder spice levels and kid-friendly portions of popular favorites.</p>
                                         </div>
                                     </div>
                                 </div>
                                 
-
                             </div>
                             
                         </div>
@@ -270,7 +269,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse11" className="accordion-collapse collapse show" aria-labelledby="heading11" data-bs-parent="#accordion2">
                                         <div className="accordion-body">
-                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                            <p>Our prices are determined based on the quality of ingredients, preparation hygiene, and the premium dining experience we provide.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -285,7 +284,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse12" className="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordion2">
                                         <div className="accordion-body">
-                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                            <p>Yes, we accept all major credit/debit cards, UPI, digital wallets (Paytm, PhonePe, GPay), and cash payments.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +299,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse13" className="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordion2">
                                         <div className="accordion-body">
-                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                            <p>Tipping is entirely voluntary and is not automatically added to your bill. If you liked our service, you are welcome to leave a tip.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -315,7 +314,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse14" className="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordion2">
                                         <div className="accordion-body">
-                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                            <p>For catering and large group bookings, we require a 50% deposit to confirm the date, with the balance due on the day of the event.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +329,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse15" className="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordion2">
                                         <div className="accordion-body">
-                                            <p>Our prices are based on the quality of ingredients used, the expertise of our chefs, and the overall dining experience.</p>
+                                            <p>No, there are no hidden fees. All taxes and standard service charges are transparently listed on the bill.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -343,7 +342,7 @@ const Faqs = () => {
                         
                         <div className="faq-accordion page-faq-accordion" id="orders_and_delivery">
                             <div className="section-title">
-                                <h2 className="text-anime-style-2" data-cursor="-opaque">orders and <span>and delivery</span></h2>
+                                <h2 className="text-anime-style-2" data-cursor="-opaque">orders and <span>delivery</span></h2>
                             </div>
                             
                             <div className="faq-accordion" id="accordion3">
@@ -356,7 +355,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse16" className="accordion-collapse collapse show" aria-labelledby="heading16" data-bs-parent="#accordion3">
                                         <div className="accordion-body">
-                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                            <p>You can place an order by calling us directly at +91 9217014763 or by visiting our website to place a direct home delivery order.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -371,7 +370,7 @@ const Faqs = () => {
                                     </h2>
                                     <div id="collapse17" className="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#accordion3">
                                         <div className="accordion-body">
-                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                            <p>Yes, the minimum order value for home delivery is ₹300. Orders below this amount can be collected as takeout.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -381,12 +380,12 @@ const Faqs = () => {
                                 <div className="accordion-item wow fadeInUp" data-wow-delay="0.4s">
                                     <h2 className="accordion-header" id="heading18">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
-                                            3. Is tipping included in the bill?
+                                            3. How long does the delivery usually take?
                                         </button>
                                     </h2>
                                     <div id="collapse18" className="accordion-collapse collapse" aria-labelledby="heading18" data-bs-parent="#accordion3">
                                         <div className="accordion-body">
-                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                            <p>Our standard delivery time is 30 to 45 minutes, depending on the distance, food preparation time, and traffic conditions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -396,12 +395,12 @@ const Faqs = () => {
                                 <div className="accordion-item wow fadeInUp" data-wow-delay="0.6s">
                                     <h2 className="accordion-header" id="heading19">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="true" aria-controls="collapse19">
-                                            4. Do you offer any payment plans for large events or catering?
+                                            4. Do you deliver to all areas in Noida?
                                         </button>
                                     </h2>
                                     <div id="collapse19" className="accordion-collapse collapse" aria-labelledby="heading19" data-bs-parent="#accordion3">
                                         <div className="accordion-body">
-                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                            <p>We deliver within an 8km radius of our location in Sector 8, Noida. Please contact us to verify if we deliver to your specific sector.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -411,21 +410,19 @@ const Faqs = () => {
                                 <div className="accordion-item wow fadeInUp" data-wow-delay="0.8s">
                                     <h2 className="accordion-header" id="heading20">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
-                                            5. Are there any hidden fees or charges?
+                                            5. What should I do if my delivery is delayed?
                                         </button>
                                     </h2>
                                     <div id="collapse20" className="accordion-collapse collapse" aria-labelledby="heading20" data-bs-parent="#accordion3">
                                         <div className="accordion-body">
-                                            <p>You can place an order for delivery through our website or by calling the restaurant directly. We also partner with delivery platforms for added convenience.</p>
+                                            <p>If your order is delayed, please contact us immediately at +91 9217014763. We will track the rider and update you on the delivery status.</p>
                                         </div>
                                     </div>
                                 </div>
                                 
                             </div>
                             
-                        </div>
-                        
-                    </div>
+                        </div>                    </div>
                                    
                 </div>
             </div>

@@ -6092,8 +6092,55 @@ html[data-theme='light'] .footer-social-icon ul li:hover a i {
 
 
 .reserve-table-form {
-    border: 1px solid var(--accent-color);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border: 1px solid var(--accent-color) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
+}
+
+html[data-theme='light'] .reserve-table-form {
+    border: 1px solid #c1b696 !important;
+    box-shadow: 0 10px 30px rgba(210, 152, 41, 0.1) !important;
+    background: #ffffff !important;
+}
+
+/* Force visible border for all input/select fields in both themes */
+.reserve-table-form .form-control,
+.reserve-table-form .form-select {
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    color: #ffffff !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Focus styles for inputs in dark theme */
+.reserve-table-form .form-control:focus,
+.reserve-table-form .form-select:focus {
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 8px rgba(210, 152, 41, 0.4) !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Force visible border for light theme inputs */
+html[data-theme='light'] .reserve-table-form .form-control,
+html[data-theme='light'] .reserve-table-form .form-select {
+    border: 1px solid #c1b696 !important;
+    background-color: #ffffff !important;
+    color: #171311 !important;
+}
+
+/* Focus styles for light theme inputs */
+html[data-theme='light'] .reserve-table-form .form-control:focus,
+html[data-theme='light'] .reserve-table-form .form-select:focus {
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 8px rgba(210, 152, 41, 0.3) !important;
+    background-color: #ffffff !important;
+}
+
+/* Ensure placeholder is visible in both themes */
+.reserve-table-form .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+html[data-theme='light'] .reserve-table-form .form-control::placeholder {
+    color: #a89f84 !important;
 }
 
 
