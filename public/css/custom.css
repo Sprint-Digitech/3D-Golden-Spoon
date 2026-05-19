@@ -48,7 +48,7 @@
 	--accent-color: #D29829;
 	--divider-color: #FFFFFF1A;
 	--dark-divider-color: #0E110D;
-	--media-overlay-color: rgba(14, 17, 13, 0.70);
+	--media-overlay-color: rgba(14, 17, 13, 0.30);
 	--error-color: rgb(230, 87, 87);
 	--default-font: "Hanken Grotesk", serif;
 }
@@ -1014,6 +1014,20 @@ html[data-theme='light'] .team-item:hover .team-social-list ul li:hover a {
 
 .hero-content .section-title {
 	margin-bottom: 30px;
+}
+
+.hero-content .section-title p {
+	display: inline-block;
+	max-width: 640px;
+	padding: 14px 18px;
+	border-radius: 14px;
+	background: rgba(14, 17, 13, 0.42);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+	line-height: 1.8;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
 }
 
 .hero-btn {

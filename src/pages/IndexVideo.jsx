@@ -19,7 +19,7 @@ const IndexVideo = () => {
         <div className="hero-bg-video">
             
             
-            <video autoPlay muted={true} loop={true} id="heroVideo"><source src="https://demo.awaikenthemes.com/assets/videos/spicyhunt-video.mp4" type="video/mp4" /></video>
+            <video autoPlay muted={true} loop={true} playsInline id="heroVideo"><source src="/Gallery/Video Project 5.mp4" type="video/mp4" /></video>
             
             
 

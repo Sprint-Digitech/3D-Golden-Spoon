@@ -1,17 +1,33 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 const Menu = () => {
+    const videoRef = useRef(null);
+
     useEffect(() => {
         window.scrollTo(0, 0);
+
+        const handleScroll = () => {
+            if (videoRef.current) {
+                if (window.scrollY > 100) {
+                    videoRef.current.muted = true;
+                } else {
+                    videoRef.current.muted = false;
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     return (
         <main>
-            <div className="page-header" style={{ position: 'relative', overflow: 'hidden', backgroundImage: 'none', minHeight: '650px' }}>
+            <div className="page-header" style={{ position: 'relative', overflow: 'hidden', backgroundImage: 'none', height: '100vh' }}>
                 <video 
+                    ref={videoRef}
                     autoPlay 
-                    muted 
+                    muted={false} 
                     loop 
                     playsInline 
                     style={{ 
@@ -24,7 +40,7 @@ const Menu = () => {
                         zIndex: -1 
                     }}
                 >
-                    <source src="/Gallery/Video Project1.mp4" type="video/mp4" />
+                    <source src="/Gallery/video Project 4.mp4" type="video/mp4" />
                 </video>
                 
                 {/* Scroll Down Indicator */}

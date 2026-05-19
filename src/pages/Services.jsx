@@ -13,7 +13,7 @@ const Services = () => {
 	
 
     
-	<div className="page-header" style={{ position: 'relative', overflow: 'hidden', backgroundImage: 'none', minHeight: '650px' }}>
+	<div className="page-header" style={{ position: 'relative', overflow: 'hidden', backgroundImage: 'none', height: '100vh' }}>
         <video 
             autoPlay 
             muted 
