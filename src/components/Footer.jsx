@@ -5,23 +5,12 @@ const Footer = () => {
     const logoSrc = '/images/golden-spoon-logo.png';
 
     return (
-        <footer className="main-footer">
+        <footer className="main-footer" style={{ paddingTop: '20px' }}>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-12">
                         {/* Footer Content Start */}
                         <div className="footer-content">
-                            {/* Footer Logo Start */}
-                            <div className="footer-logo">
-                                <img
-                                    className="site-logo site-logo--footer"
-                                    src={logoSrc}
-                                    alt="Golden Spoon Restaurant logo"
-                                    loading="lazy"
-                                    decoding="async"
-                                />
-                            </div>
-                            {/* Footer Logo End */}
 
                             {/* Footer Contact Box Start */}
                             <div className="footer-contact-box">
@@ -65,7 +54,7 @@ const Footer = () => {
                 </div>
 
                 {/* Footer Copyright Section Start */}
-                <div className="footer-copyright">
+                <div className="footer-copyright" style={{ padding: '15px 0' }}>
                     <div className="row align-items-center">
                         <div className="col-md-6">
                             {/* Footer Social Icon Start */}

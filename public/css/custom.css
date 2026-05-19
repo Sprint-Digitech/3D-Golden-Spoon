@@ -2548,7 +2548,7 @@ html[data-theme='light'] .reserve-table-form .form-control.form-select option {
 
 .reserve-table-btn .btn-default {
 	width: 100%;
-	padding: 17px 30px;
+	padding: 15px 30px; border: 2px solid var(--accent-color);
 }
 
 .reserve-table-btn .btn-default:hover {
@@ -4383,7 +4383,7 @@ html[data-theme='light'] .footer-social-icon ul li:hover a i {
 }
 
 .contact-form .btn-default {
-	padding: 17px 30px;
+	padding: 15px 30px; border: 2px solid var(--accent-color);
 	width: 100%;
 }
 
@@ -6088,4 +6088,20 @@ html[data-theme='light'] .footer-social-icon ul li:hover a i {
 		transform: translate(-50%, 15px);
 		opacity: 0;
 	}
+}
+
+
+.reserve-table-form {
+    border: 1px solid var(--accent-color);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+
+/* Custom Cursor Hover Fix */
+.cb-cursor.-opaque {
+    mix-blend-mode: normal !important;
+}
+.cb-cursor.-opaque:before {
+    background: rgba(210, 152, 41, 0.2) !important;
+    border: 2px solid var(--accent-color) !important;
 }

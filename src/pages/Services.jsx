@@ -377,14 +377,7 @@ I recommended this place to everyone for your craving. </p>
 
                                 <div className="form-group col-md-4 mb-4">
                                     <label className="form-label">Number Of Person</label>
-                                    <select name="person" className="form-control form-select" id="person" required>
-                                        <option value="" disabled defaultValue>number of person</option>
-                                        <option value="1_person">1 Person</option>
-                                        <option value="5_person">5 Person</option>
-                                        <option value="10_person">10 Person</option>
-                                        <option value="15_person">15 Person</option>
-                                        <option value="20_person">20 Person</option>
-                                    </select>
+                                    <input type="number" name="person" className="form-control" id="person" placeholder="Type number of person" min="1" required />
                                     <div className="help-block with-errors"></div>
                                 </div>
 
