@@ -18,7 +18,7 @@ const Preloader = () => {
             <div className="loading-container">
                 <div className="loading"></div>
                 <div id="loading-icon">
-                    <img src="/images/loader.svg" alt="loader" />
+                    <img src="/images/golden-spoon-logo.png" alt="loader" />
                 </div>
             </div>
         </div>

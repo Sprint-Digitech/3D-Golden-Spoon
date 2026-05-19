@@ -328,7 +328,7 @@ html[data-theme='light'] .btn-default:hover:after {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 1000;
+	z-index: 99999 !important;
 	background-color: var(--accent-color);
 	display: flex;
 	align-items: center;
@@ -6151,4 +6151,9 @@ html[data-theme='light'] .reserve-table-form .form-control::placeholder {
 .cb-cursor.-opaque:before {
     background: rgba(210, 152, 41, 0.2) !important;
     border: 2px solid var(--accent-color) !important;
+}
+
+/* Fix "Reserve Now" button hover text color in light theme (prevent invisible white text on cream background) */
+html[data-theme='light'] .reserve-table-btn .btn-default:hover {
+    color: #171311 !important;
 }
