@@ -75,9 +75,9 @@ const Home = () => {
                     <div className="hero-content">
                         
                         <div className="section-title">
-                            <h3 className="wow fadeInUp">golden spoon restaurant, noida</h3>
-                            <h1 className="text-anime-style-2" data-cursor="-opaque">Dining in Noida, <span>made memorable</span></h1>
-                            <p className="wow fadeInUp" data-wow-delay="0.2s">At Golden Spoon Restaurant, Noida, every meal is prepared with care, served with warmth, and designed to leave a lasting impression. From everyday cravings to special occasions, we make dining feel easy, flavorful, and inviting.</p>
+                            <h3 className="wow fadeInUp" style={{ textShadow: "1px 1px 4px rgba(0,0,0,0.8)" }}>golden spoon restaurant, noida</h3>
+                            <h1 className="text-anime-style-2" data-cursor="-opaque" style={{ textShadow: "2px 2px 8px rgba(0,0,0,0.8)" }}>Dining in Noida, <span>made memorable</span></h1>
+                            <p className="wow fadeInUp" data-wow-delay="0.2s" style={{ textShadow: "1px 1px 4px rgba(0,0,0,0.9), 0px 0px 10px rgba(0,0,0,0.8)", fontWeight: "500", color: "#ffffff", letterSpacing: "0.5px" }}>At Golden Spoon Restaurant, Noida, every meal is prepared with care, served with warmth, and designed to leave a lasting impression. From everyday cravings to special occasions, we make dining feel easy, flavorful, and inviting.</p>
                         </div>
                         
 
